@@ -1,0 +1,86 @@
+---
+name: 前端框架技能
+description: 涵蓋 React、Vue、Next.js、Nuxt.js 等主流前端框架指南
+---
+
+# 🖥️ 前端框架技能
+
+## 框架選擇指南
+
+| 框架 | 類型 | 適用場景 | 學習曲線 |
+|-----|------|---------|---------|
+| [React](react.md) | 函式庫 | SPA、複雜應用 | 中等 |
+| [Vue](vue.md) | 框架 | 中小型專案、漸進式 | 較低 |
+| [Next.js](next.md) | React 框架 | SSR/SSG、SEO 需求 | 中等 |
+| [Nuxt.js](nuxt.md) | Vue 框架 | SSR/SSG、SEO 需求 | 中等 |
+| [Vanilla](vanilla.md) | 原生 | 簡單網站、效能優先 | 低 |
+
+---
+
+## 快速選擇
+
+### 依專案需求
+
+| 需求 | 推薦 |
+|-----|------|
+| SEO 重要 | Next.js / Nuxt.js |
+| SPA 應用 | React / Vue |
+| 快速開發 | Vue / Nuxt.js |
+| 大型團隊 | React + TypeScript |
+| 學習成本低 | Vue |
+| 靜態網站 | Next.js / Nuxt.js / Astro |
+
+### 依技術背景
+
+| 背景 | 推薦 |
+|-----|------|
+| 新手 | Vue |
+| 熟悉 React | Next.js |
+| 熟悉 Vue | Nuxt.js |
+| 後端開發者 | Vue / Laravel + Inertia |
+
+---
+
+## 共通最佳實踐
+
+### 專案結構
+
+```
+src/
+├── components/       # 可重用元件
+│   ├── ui/          # 基礎 UI 元件
+│   └── common/      # 共用元件
+├── pages/ or views/ # 頁面
+├── layouts/         # 佈局
+├── hooks/ or composables/ # 邏輯復用
+├── services/ or api/     # API 呼叫
+├── stores/          # 狀態管理
+├── utils/           # 工具函式
+├── styles/          # 全域樣式
+└── assets/          # 靜態資源
+```
+
+### 命名規範
+
+| 類型 | 規範 | 範例 |
+|-----|------|-----|
+| 元件 | PascalCase | `UserCard.vue` |
+| 頁面 (Next) | kebab-case | `user-profile.tsx` |
+| 函式 | camelCase | `getUserData()` |
+| 常數 | UPPER_SNAKE | `API_BASE_URL` |
+| CSS class | kebab-case / BEM | `user-card__title` |
+
+### 效能優化
+
+1. **程式碼分割**：動態載入
+2. **圖片優化**：使用 next/image 或 nuxt-image
+3. **快取策略**：適當的快取設定
+4. **Bundle 分析**：定期檢查 bundle 大小
+
+---
+
+## 相關技能
+
+- [CSS 架構](../css/SKILL.md)
+- [Coding Style](../code/SKILL.md)
+- [響應式設計](../rwd/SKILL.md)
