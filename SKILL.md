@@ -1,6 +1,22 @@
 ---
-name: 網站開發技能系統
-description: 完整的網站開發指南，涵蓋 UI/UX、前後端框架、Coding Style，支援互動式選擇精靈
+name: 網站開發技能系統 (Webdev Skills)
+description: 完整的網站開發指南 (Full-stack Web Development Skills)，涵蓋 UI/UX、前後端框架、Coding Style，支援互動式選擇精靈。
+aliases:
+  - webdev
+  - web-development
+  - frontend
+  - backend
+  - 網站開發
+  - 網頁設計
+keywords:
+  - React
+  - Vue
+  - Next.js
+  - Tailwind
+  - Laravel
+  - Node.js
+  - UI/UX
+  - Design System
 ---
 
 # 🌐 網站開發技能系統
@@ -9,19 +25,18 @@ description: 完整的網站開發指南，涵蓋 UI/UX、前後端框架、Codi
 
 ---
 
-## 🚀 一鍵啟動完整流程
+## 🚀 核心指令
 
-**說這句話即可啟動完整網站開發流程：**
+**啟動指令：**
 
 ```text
 幫我建立一個網站
 ```
 
-或使用 workflow 指令：`/build-website`
+**AI 行為：**
+收到此指令後，將自動啟動下方的 **[標準作業程序 (SOP)](#-標準作業程序-sop)**。
 
-→ 將自動執行：需求收集 → 技術選擇 → 風格確定 → 開發 → 檢查
-
-➡️ [完整工作流程說明](../../workflows/build-website.md)
+➡️ [詳細工作流程參考](workflows/build-website.md)
 
 ---
 
@@ -39,27 +54,47 @@ description: 完整的網站開發指南，涵蓋 UI/UX、前後端框架、Codi
 
 ---
 
-## 快速開始
+## 🔄 標準作業程序 (SOP)
 
-### 方式一：精簡模式（省 Token）⚡
+**互動協議 (Protocol)：**
+當用戶指令包含 `「建立網站」`、`「Build Website」` 或類似意圖時，**必須** 嚴格遵守以下執行順序，不得跳過。
 
-載入單一檔案即可開始開發：
+### Phase 1: 智慧推理 (Reasoning)
+> 🛑 **Constraint**: 在寫任何 Code 之前，必須先完成此步驟。
 
-```text
-讀取 .agent/skills/webdev/compact.md
-```
+1. **分析意圖**：判斷專案類型 (SaaS/E-commerce/Portfolio/etc.)。
+2. **執行推理**：讀取並應用 `logic/reasoning.md` 的規則。
+3. **輸出決策**：展示 **Design Reasoning Block** (ASCII 表格)，確認風格、配色與反模式。
 
-包含：核心原則 + 風格速查 + 設計 Token + 元件模板（~2000 tokens）
+### Phase 2: 設計系統生成 (Design System)
+> 🛑 **Constraint**: 必須建立單一真理來源 (Source of Truth)。
 
-另有 [風格色碼速查](ui/styles/colors.md) 供快速查詢配色
+1. **讀取邏輯**：參照 `logic/design-system-gen.md`。
+2. **生成檔案**：建立 `styles/design-system/MASTER.md`。
+3. **定義變數**：確保色彩、字體、間距 tokens 已明確定義。
 
-### 方式二：完整流程（推薦）
+### Phase 3: 專案初始化 (Initialization)
 
-說「幫我建立網站」啟動 12 步完整流程
+1. **技術決策**：根據 Phase 1 推理結果，選擇最佳技術棧 (若用戶無指定)。
+    - *SEO 優先* → Next.js
+    - *快速開發* → Vue/Vite
+    - *全端應用* → Laravel/Node
+2. **建立專案**：執行初始化指令 (e.g., `npx create-next-app`).
+3. **配置環境**：設定 Tailwind (`tailwind.config.js`) 連結至 `MASTER.md` 的變數。
 
-### 方式二：互動選擇精靈 ✨
+### Phase 4: 開發執行 (Execution)
 
-不確定要用什麼技術？讓精靈引導你：
+1. **元件開發**：優先製作基礎元件 (Button, Card, Input)。
+2. **頁面組裝**：運用 `tpl/page/SKILL.md` 的結構進行開發。
+3. **去 AI 感檢查**：隨時與 `ui/no-ai-feel.md` 對照，確保設計「有人味」。
+
+---
+
+## 🔧 手動/進階選項 (Manual Mode)
+
+如果你希望能逐一步驟微調，或需要更細粒度的控制，可以使用互動精靈：
+
+### 互動選擇精靈 ✨
 
 | 精靈 | 說明 | 指令 |
 |-----|------|-----|
@@ -67,24 +102,22 @@ description: 完整的網站開發指南，涵蓋 UI/UX、前後端框架、Codi
 | 🎨 [風格精靈](wizard/style.md) | 選擇設計風格 | `幫我選擇設計風格` |
 | 📝 [Coding Style 精靈](wizard/code.md) | 選擇程式碼規範 | `幫我選擇 coding style` |
 
-### 方式三：直接指定
+### 直接指定
 
 告訴我你的需求，例如：
 - `用 React + Tailwind 建立一個電商網站`
 - `用 Laravel 建立 REST API`
-- `用 Vue + 玻璃擬態風格建立作品集`
 
-### 方式四：根據描述判斷
-
-描述你的專案，我會根據以下因素推薦最適合的方案：
-- 專案類型與規模
-- SEO 與效能需求
-- 團隊技術背景
-- 開發時程與預算
 
 ---
 
 ## 📚 技能索引
+
+### 核心邏輯 (New!)
+| 類別 | 內容 |
+|-----|------|
+| [推理引擎](logic/reasoning.md) | 設計決策、反模式過濾 |
+| [設計系統生成](logic/design-system-gen.md) | Master/Page 覆寫機制 |
 
 ### 設計相關
 | 類別 | 內容 |
@@ -147,8 +180,8 @@ description: 完整的網站開發指南，涵蓋 UI/UX、前後端框架、Codi
 
 ## 版本資訊
 
-- 版本：1.1.0
-- 更新日期：2026-01-22
+- 版本：1.2.0
+- 更新日期：2026-01-29
 - 語言：繁體中文
 - 總檔案數：102
 - 設計風格：55 種

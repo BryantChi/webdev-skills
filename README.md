@@ -13,6 +13,27 @@
 - ⚡ **Token 優化** - 精簡模式只需 ~2000 tokens
 - 🔧 **多工具支援** - Cursor、Windsurf、VS Code、Claude、ChatGPT 等
 
+## 🗣️ 如何觸發此技能？
+
+**支援的觸發詞 (Aliases)：**
+
+你可以在任何支援 Skills 的 AI 工具中，使用以下詞彙來觸發此技能系統：
+
+| 語言 | 關鍵字 |
+|------|--------|
+| English | `webdev`, `web-development`, `frontend`, `backend` |
+| 中文 | `網站開發`, `網頁設計` |
+
+**範例：**
+
+```text
+使用 webdev skill 幫我建立網站
+```
+
+```text
+啟動網站開發技能
+```
+
 ## 📦 安裝
 
 ### 方式一：Clone 到專案

@@ -1,120 +1,135 @@
-# 安裝指南
+---
+name: 安裝指南
+description: 2026 最新版安裝指南 - 適用於任何專案與 AI 工具
+---
 
-## 快速安裝
+# 📦 安裝指南 (Installation Guide)
 
-### 方式一：Git Clone
+本 Skills 系統採用 **Agent Native** 架構，只需將檔案放置於專案特定目錄，即可被大多數 AI 代理自動識別。
+
+---
+
+## 🚀 快速安裝
+
+### 方式一：Git Submodule (推薦用於團隊) ✅
+
+這是 2026 年最標準的 Skills 管理方式，讓 Skill 版本隨專案更新。
 
 ```bash
-# 進入你的專案目錄
-cd your-project
-
-# 建立 .agent/skills 目錄
+# 確保目錄存在
 mkdir -p .agent/skills
 
-# Clone 此 repo
-git clone https://github.com/YOUR_USERNAME/webdev-skills.git .agent/skills/webdev
-```
+# 新增 Submodule (請替換為實際 Repo URL)
+git submodule add https://github.com/BryantChi/webdev-skills.git .agent/skills/webdev
 
-### 方式二：Git Submodule (推薦用於團隊)
-
-```bash
-# 新增為 submodule
-git submodule add https://github.com/YOUR_USERNAME/webdev-skills.git .agent/skills/webdev
-
-# 團隊成員需執行
+# 初始化
 git submodule update --init --recursive
 ```
 
-### 方式三：直接複製
+### 方式二：Git Clone (適用於個人專案)
 
-1. 下載此 repo 的 ZIP
-2. 解壓縮
-3. 複製整個目錄到 `.agent/skills/webdev/`
+```bash
+mkdir -p .agent/skills
+git clone https://github.com/BryantChi/webdev-skills.git .agent/skills/webdev
+```
 
-## 目錄結構
+### 方式三：手動下載
 
-安裝後你的專案應該像這樣：
+1. 下載 ZIP 檔案。
+2. 解壓縮到專案根目錄的 `.agent/skills/webdev/`。
+
+---
+
+## 📂 標準目錄結構
+
+安裝完成後，你的專案結構應如下所示（這是 Agent 自動發現的標準結構）：
 
 ```text
-your-project/
+my-project/
 ├── .agent/
-│   └── skills/
-│       └── webdev/          # ← 此 repo
-│           ├── SKILL.md
-│           ├── README.md
-│           ├── workflows/   # ← 內含完整工作流程
-│           │   └── build-website.md
-│           └── ...
+│   ├── skills/
+│   │   └── webdev/          # [本系統核心]
+│   │       ├── SKILL.md     # SOP 入口
+│   │       ├── logic/       # 推理引擎
+│   │       ├── ui/          # 設計系統
+│   │       └── ...
+│   └── workflows/           # (選擇性) 工作流程捷徑
+│       └── build-website.md # 方便直接呼叫
 ├── src/
 ├── package.json
 └── ...
 ```
 
-> **注意**：workflows 已包含在 webdev 目錄中，無需額外安裝。
+---
 
-## Antigravity 用戶專用
+## ⚙️ 環境設置 (Optional)
 
-Antigravity 有自動偵測 `.agent/workflows/` 的機制，如果你想使用 `/build-website` 指令，需要額外設定：
+### 1. Antigravity / Gemini IDE 設定
+
+為了啟用 `/build-website` 斜線指令，建議將 workflow 複製到頂層：
 
 ```bash
-# 方式一：建立 symlink（推薦）
+# Windows (PowerShell)
 mkdir -p .agent/workflows
-# Windows
-mklink /D .agent\workflows\build-website.md .agent\skills\webdev\workflows\build-website.md
-# macOS/Linux
-ln -s .agent/skills/webdev/workflows/build-website.md .agent/workflows/build-website.md
+Copy-Item .agent/skills/webdev/workflows/build-website.md .agent/workflows/
 
-# 方式二：直接複製
+# macOS / Linux
+mkdir -p .agent/workflows
 cp .agent/skills/webdev/workflows/build-website.md .agent/workflows/
 ```
 
-> 其他 AI 工具（Cursor、Windsurf、Claude 等）不需要此步驟，直接引用 `@.agent/skills/webdev/workflows/build-website.md` 即可。
+### 2. Cursor / Windsurf 規則設定
 
-## 驗證安裝
+為了讓 AI 自動遵守規範，建議建立全域規則 (.cursor/rules 或 .windsurf/rules)：
 
-在你的 AI 工具中測試：
+**建立 `.cursor/rules/webdev.mdc`：**
 
-### Cursor / Windsurf
-
-```text
-@.agent/skills/webdev/SKILL.md 這個 skill 有什麼功能？
+```markdown
+---
+description: Web Development Standards
+globs: ["**/*.{ts,tsx,js,jsx,vue,html,css}"]
+---
+# Webdev Agent Skill
+當涉及網頁開發時：
+1. 必須參考 @.agent/skills/webdev/SKILL.md
+2. 必須遵守 @.agent/skills/webdev/ui/no-ai-feel.md
 ```
 
-### VS Code + Copilot
+---
 
+## ✅ 驗證安裝
+
+在你的 AI 工具中輸入以下指令測試：
+
+**通用 Prompt:**
 ```text
-#file:.agent/skills/webdev/SKILL.md 這個 skill 有什麼功能？
+讀取 .agent/skills/webdev/SKILL.md 並告訴我 SOP 的 Phase 1 是什麼？
 ```
 
-如果 AI 能正確描述功能，表示安裝成功！
+**Antigravity:**
+```text
+/build-website (如果你有設定 workflow)
+或
+使用 webdev skill 建立網站
+```
 
-## 更新
+**OpenCode CLI:**
+```bash
+opencode map .agent/skills/webdev
+```
 
-### Git Clone
+若 AI 能正確回答「智慧推理 (Reasoning)」，則安裝成功！🎉
+
+---
+
+## 🔄 更新與維護
+
+保持 Skill 在最新狀態：
 
 ```bash
-cd .agent/skills/webdev
-git pull origin main
-```
-
-### Submodule
-
-```bash
+# 若使用 Submodule
 git submodule update --remote .agent/skills/webdev
-```
 
-## 問題排解
-
-### AI 找不到檔案
-
-- 確認路徑是否正確：`.agent/skills/webdev/`
-- 確認檔案是否存在：`ls .agent/skills/webdev/SKILL.md`
-- 不同 AI 工具的路徑引用格式不同，參考 [ai-tools-guide.md](ai-tools-guide.md)
-
-### Token 超出限制
-
-使用精簡模式：
-
-```text
-@.agent/skills/webdev/compact.md
+# 若使用 Clone
+cd .agent/skills/webdev && git pull
 ```
