@@ -1,6 +1,6 @@
 ---
 id: nuxtjs_guide
-name: Nuxt.js Guide
+name: nuxtjs_guide
 description: Nuxt.js 3 開發最佳實踐
 ---
 

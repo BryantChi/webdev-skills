@@ -1,6 +1,6 @@
 ---
 id: api_design
-name: API Design
+name: api_design
 description: REST API 與 GraphQL 設計規範指南
 ---
 

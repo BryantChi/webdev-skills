@@ -1,6 +1,6 @@
 ---
 id: tech_stack_wizard
-name: Tech Stack Wizard
+name: tech_stack_wizard
 description: 透過 12 個問題引導選擇最適合的前後端技術棧
 ---
 

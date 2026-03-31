@@ -1,6 +1,6 @@
 ---
 id: chinese_modern
-name: Chinese Modern
+name: chinese_modern
 description: Chinese Modern - 東方美學的現代詮釋
 ---
 

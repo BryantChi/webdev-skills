@@ -1,6 +1,6 @@
 ---
 id: color_system
-name: Color System
+name: color_system
 description: 完整的色彩系統建立指南，包含調色板、對比度、色彩心理學
 ---
 

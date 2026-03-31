@@ -1,6 +1,6 @@
 ---
 id: material_design
-name: Material Design
+name: material_design
 description: Material Design - Google 風格的卡片式設計
 ---
 

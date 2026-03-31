@@ -1,6 +1,6 @@
 ---
 id: python_pep8_style
-name: Python PEP8 Style
+name: python_pep8_style
 description: Python 官方編碼規範
 ---
 

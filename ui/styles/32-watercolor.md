@@ -1,6 +1,6 @@
 ---
 id: watercolor
-name: Watercolor
+name: watercolor
 description: Watercolor - 柔和暈染的手繪風格
 ---
 

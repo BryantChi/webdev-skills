@@ -1,6 +1,6 @@
 ---
 id: web_security
-name: Web Security
+name: web_security
 description: 驗證、授權與 OWASP 安全檢查清單
 ---
 

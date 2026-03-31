@@ -1,6 +1,6 @@
 ---
 id: legal
-name: Legal
+name: legal
 description: Legal - 傳統權威的法律服務設計
 ---
 

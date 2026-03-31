@@ -1,6 +1,6 @@
 ---
 id: launch_checklist
-name: Launch Checklist
+name: launch_checklist
 description: 網站上線前的完整檢查清單
 ---
 

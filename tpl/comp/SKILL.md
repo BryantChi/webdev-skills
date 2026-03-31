@@ -1,6 +1,6 @@
 ---
 id: component_templates
-name: Component Templates
+name: component_templates
 description: Button、Form、Card、Nav、Modal 等 UI 元件模板
 ---
 

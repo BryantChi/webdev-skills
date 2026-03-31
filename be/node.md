@@ -1,6 +1,6 @@
 ---
 id: nodejs_guide
-name: Node.js Guide
+name: nodejs_guide
 description: Node.js + Express 開發最佳實踐
 ---
 

@@ -1,6 +1,6 @@
 ---
 id: tailwind_css_guide
-name: Tailwind CSS Guide
+name: tailwind_css_guide
 description: Tailwind CSS 開發最佳實踐
 ---
 

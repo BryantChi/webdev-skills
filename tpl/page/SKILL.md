@@ -1,6 +1,6 @@
 ---
 id: page_templates
-name: Page Templates
+name: page_templates
 description: Landing、Dashboard、Auth 等頁面佈局模板
 ---
 

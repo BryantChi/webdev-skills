@@ -1,6 +1,6 @@
 ---
 id: css_bem_style
-name: CSS BEM Style
+name: css_bem_style
 description: Block Element Modifier 命名規範
 ---
 

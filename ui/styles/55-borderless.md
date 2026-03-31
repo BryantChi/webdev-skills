@@ -1,6 +1,6 @@
 ---
 id: borderless
-name: Borderless
+name: borderless
 description: Borderless - 流動佈局的現代無界限設計
 ---
 

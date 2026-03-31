@@ -1,6 +1,6 @@
 ---
 id: dashboard
-name: Dashboard
+name: dashboard
 description: Dashboard - 數據視覺化的管理介面風格
 ---
 

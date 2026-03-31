@@ -1,6 +1,6 @@
 ---
 id: brutalism
-name: Brutalism
+name: brutalism
 description: Brutalism - 粗獷大膽的反設計風格
 ---
 

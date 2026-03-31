@@ -1,6 +1,6 @@
 ---
 id: travel
-name: Travel
+name: travel
 description: Travel - 冒險大圖的旅遊觀光風格
 ---
 

@@ -1,6 +1,6 @@
 ---
 id: editorial
-name: Editorial
+name: editorial
 description: Editorial - 雜誌排版的視覺風格
 ---
 

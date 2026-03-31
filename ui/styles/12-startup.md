@@ -1,6 +1,6 @@
 ---
 id: startup
-name: Startup
+name: startup
 description: Startup - 活力現代的科技新創風格
 ---
 

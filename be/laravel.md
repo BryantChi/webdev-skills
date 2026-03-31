@@ -1,6 +1,6 @@
 ---
 id: laravel_guide
-name: Laravel Guide
+name: laravel_guide
 description: Laravel 11+ 開發最佳實踐
 ---
 

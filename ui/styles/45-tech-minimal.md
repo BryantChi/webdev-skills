@@ -1,6 +1,6 @@
 ---
 id: tech_minimal
-name: Tech Minimal
+name: tech_minimal
 description: Tech Minimal - 科技感的極簡設計
 ---
 

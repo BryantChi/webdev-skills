@@ -1,6 +1,6 @@
 ---
 id: css_architecture
-name: CSS Architecture
+name: css_architecture
 description: Tailwind、Bootstrap、SCSS、Vanilla CSS 方案指南
 ---
 

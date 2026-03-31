@@ -1,6 +1,6 @@
 ---
 id: light_mode
-name: Light Mode
+name: light_mode
 description: Light Mode - 純白清新的設計風格
 ---
 

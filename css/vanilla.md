@@ -1,6 +1,6 @@
 ---
 id: vanilla_css_guide
-name: Vanilla CSS Guide
+name: vanilla_css_guide
 description: 原生 CSS 開發最佳實踐
 ---
 

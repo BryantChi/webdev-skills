@@ -1,6 +1,6 @@
 ---
 id: duotone
-name: Duotone
+name: duotone
 description: Duotone - 雙色處理的藝術風格
 ---
 

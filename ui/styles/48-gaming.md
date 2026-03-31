@@ -1,6 +1,6 @@
 ---
 id: gaming
-name: Gaming
+name: gaming
 description: Gaming - 動態炫酷的遊戲網站風格
 ---
 

@@ -1,6 +1,6 @@
 ---
 id: vanilla_javascript_guide
-name: Vanilla JavaScript Guide
+name: vanilla_javascript_guide
 description: 原生 JavaScript 開發最佳實踐
 ---
 

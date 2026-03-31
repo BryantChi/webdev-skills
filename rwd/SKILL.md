@@ -1,6 +1,6 @@
 ---
 id: responsive_design
-name: Responsive Design
+name: responsive_design
 description: 斷點、Mobile-First 與多裝置適配指南
 ---
 

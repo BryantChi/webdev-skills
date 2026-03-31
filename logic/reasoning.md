@@ -1,6 +1,6 @@
 ---
 id: design_reasoning_engine
-name: Design Reasoning Engine
+name: design_reasoning_engine
 description: 設計決策推理與反模式過濾邏輯
 ---
 

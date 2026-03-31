@@ -1,6 +1,6 @@
 ---
 id: neumorphism
-name: Neumorphism
+name: neumorphism
 description: Neumorphism - 柔和陰影的凸起效果
 ---
 

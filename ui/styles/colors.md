@@ -1,6 +1,6 @@
 ---
 id: style_color_reference
-name: Style Color Reference
+name: style_color_reference
 description: 所有 55 種風格的配色速查表，最小化 token 消耗
 ---
 

@@ -1,6 +1,6 @@
 ---
 id: rest_api_design
-name: REST API Design
+name: rest_api_design
 description: REST API 設計詳細指南
 ---
 

@@ -1,6 +1,6 @@
 ---
 id: playful
-name: Playful
+name: playful
 description: Playful/Kids - 活潑可愛的兒童風格
 ---
 

@@ -1,6 +1,6 @@
 ---
 id: e_commerce
-name: E-commerce
+name: e_commerce
 description: E-commerce - 商品導向的電商網站風格
 ---
 

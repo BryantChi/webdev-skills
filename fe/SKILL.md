@@ -1,6 +1,6 @@
 ---
 id: frontend_frameworks
-name: Frontend Frameworks
+name: frontend_frameworks
 description: React、Vue、Next.js、Nuxt.js、Vanilla JS 前端框架指南
 ---
 

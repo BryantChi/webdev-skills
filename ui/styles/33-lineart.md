@@ -1,6 +1,6 @@
 ---
 id: line_art
-name: Line Art
+name: line_art
 description: Line Art - 細線條簡筆畫的優雅風格
 ---
 

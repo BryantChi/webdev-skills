@@ -1,6 +1,6 @@
 ---
 id: javascript_airbnb_style
-name: JavaScript Airbnb Style
+name: javascript_airbnb_style
 description: 最流行的 JavaScript 編碼規範
 ---
 

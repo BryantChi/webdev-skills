@@ -1,6 +1,6 @@
 ---
 id: scss_guide
-name: SCSS Guide
+name: scss_guide
 description: SCSS/Sass 開發最佳實踐
 ---
 

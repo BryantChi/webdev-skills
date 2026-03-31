@@ -1,6 +1,6 @@
 ---
 id: corporate
-name: Corporate
+name: corporate
 description: Corporate - 專業穩重的企業網站風格
 ---
 

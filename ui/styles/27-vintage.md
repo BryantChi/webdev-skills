@@ -1,6 +1,6 @@
 ---
 id: vintage
-name: Vintage
+name: vintage
 description: Vintage - 舊紙張質感的懷舊風格
 ---
 

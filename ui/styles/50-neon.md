@@ -1,6 +1,6 @@
 ---
 id: neon
-name: Neon
+name: neon
 description: Neon - 發光霓虹管的視覺風格
 ---
 

@@ -1,6 +1,6 @@
 ---
 id: tropical
-name: Tropical
+name: tropical
 description: Tropical - 熱帶植物的度假風格
 ---
 

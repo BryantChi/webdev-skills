@@ -1,6 +1,6 @@
 ---
 id: glassmorphism
-name: Glassmorphism
+name: glassmorphism
 description: Glassmorphism - 毛玻璃透明效果
 ---
 

@@ -1,6 +1,6 @@
 ---
 id: blog
-name: Blog
+name: blog
 description: Blog - 內容優先的閱讀友善風格
 ---
 

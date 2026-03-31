@@ -1,6 +1,6 @@
 ---
 id: fastapi_guide
-name: FastAPI Guide
+name: fastapi_guide
 description: FastAPI 開發最佳實踐
 ---
 

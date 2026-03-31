@@ -1,6 +1,6 @@
 ---
 id: seo_checklist
-name: SEO Checklist
+name: seo_checklist
 description: 搜尋引擎優化完整檢查清單
 ---
 

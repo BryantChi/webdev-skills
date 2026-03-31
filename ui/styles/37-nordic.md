@@ -1,6 +1,6 @@
 ---
 id: nordic
-name: Nordic
+name: nordic
 description: Scandinavian - 自然、溫暖的功能美學
 ---
 

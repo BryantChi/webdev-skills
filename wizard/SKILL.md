@@ -1,6 +1,6 @@
 ---
 id: interactive_wizard
-name: Interactive Wizard
+name: interactive_wizard
 description: 透過問答引導選擇技術棧、設計風格和 Coding Style
 ---
 

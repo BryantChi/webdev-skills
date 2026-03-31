@@ -1,6 +1,6 @@
 ---
 id: react_guide
-name: React Guide
+name: react_guide
 description: React 18+ 開發最佳實踐
 ---
 

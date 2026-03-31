@@ -1,6 +1,6 @@
 ---
 id: portfolio
-name: Portfolio
+name: portfolio
 description: Portfolio - 視覺主導的展示型風格
 ---
 

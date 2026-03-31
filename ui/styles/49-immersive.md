@@ -1,6 +1,6 @@
 ---
 id: vr_ar_immersive
-name: VR/AR Immersive
+name: vr_ar_immersive
 description: Immersive - 沉浸式體驗的視覺風格
 ---
 

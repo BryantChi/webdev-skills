@@ -1,6 +1,6 @@
 ---
 id: spacing_system
-name: Spacing System
+name: spacing_system
 description: 完整的間距與佈局系統
 ---
 

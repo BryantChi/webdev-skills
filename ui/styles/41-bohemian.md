@@ -1,6 +1,6 @@
 ---
 id: bohemian
-name: Bohemian
+name: bohemian
 description: Bohemian - 民族圖騰的自由風格
 ---
 

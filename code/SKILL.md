@@ -1,6 +1,6 @@
 ---
 id: coding_style
-name: Coding Style
+name: coding_style
 description: JavaScript、TypeScript、PHP、Python、CSS 代碼規範
 ---
 

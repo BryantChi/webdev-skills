@@ -1,6 +1,6 @@
 ---
 id: medical
-name: Medical
+name: medical
 description: Medical - 乾淨專業的醫療健康風格
 ---
 

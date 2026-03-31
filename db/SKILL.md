@@ -1,6 +1,6 @@
 ---
 id: database_design
-name: Database Design
+name: database_design
 description: Schema 設計、ORM 與 Migration 指南
 ---
 

@@ -1,6 +1,6 @@
 ---
 id: typescript_style
-name: TypeScript Style
+name: typescript_style
 description: TypeScript 編碼規範與最佳實踐
 ---
 

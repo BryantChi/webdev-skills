@@ -1,6 +1,6 @@
 ---
 id: dark_mode
-name: Dark Mode
+name: dark_mode
 description: Dark Mode - 深色主題設計
 ---
 

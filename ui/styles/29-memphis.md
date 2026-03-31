@@ -1,6 +1,6 @@
 ---
 id: memphis
-name: Memphis
+name: memphis
 description: Memphis - 幾何圖案與大膽配色的活潑風格
 ---
 

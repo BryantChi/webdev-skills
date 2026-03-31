@@ -1,6 +1,6 @@
 ---
 id: chinese_traditional
-name: Chinese Traditional
+name: chinese_traditional
 description: Chinese Traditional - 古典書法元素的傳統風格
 ---
 

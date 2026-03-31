@@ -1,6 +1,6 @@
 ---
 id: nextjs_guide
-name: Next.js Guide
+name: nextjs_guide
 description: Next.js 14+ App Router 開發最佳實踐
 ---
 

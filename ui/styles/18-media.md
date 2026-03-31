@@ -1,6 +1,6 @@
 ---
 id: news_media
-name: News Media
+name: news_media
 description: Media - 資訊密集的新聞媒體設計
 ---
 

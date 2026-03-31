@@ -1,6 +1,6 @@
 ---
 id: eco
-name: Eco
+name: eco
 description: Eco/Green - 自然環保的綠色風格
 ---
 

@@ -1,6 +1,6 @@
 ---
 id: luxury
-name: Luxury
+name: luxury
 description: Luxury - 黑金配色的高端精緻風格
 ---
 

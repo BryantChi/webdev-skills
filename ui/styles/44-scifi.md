@@ -1,6 +1,6 @@
 ---
 id: sci_fi
-name: Sci-Fi
+name: sci_fi
 description: Sci-Fi - 太空與未來科技的設計風格
 ---
 

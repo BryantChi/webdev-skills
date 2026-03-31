@@ -1,6 +1,6 @@
 ---
 id: blockchain
-name: Blockchain
+name: blockchain
 description: Blockchain - 加密貨幣與區塊鏈的視覺風格
 ---
 

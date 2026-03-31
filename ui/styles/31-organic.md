@@ -1,6 +1,6 @@
 ---
 id: organic
-name: Organic
+name: organic
 description: Organic - 自然曲線的有機設計
 ---
 

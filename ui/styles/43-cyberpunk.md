@@ -1,6 +1,6 @@
 ---
 id: cyberpunk
-name: Cyberpunk
+name: cyberpunk
 description: Cyberpunk - 霓虹、高對比的未來都市風格
 ---
 
