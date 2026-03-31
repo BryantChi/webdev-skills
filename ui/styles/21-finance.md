@@ -1,4 +1,5 @@
 ---
+id: finance
 name: Finance
 description: Finance - 穩重安全的金融設計風格
 ---

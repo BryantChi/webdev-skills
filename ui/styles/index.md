@@ -1,4 +1,5 @@
 ---
+id: design_styles_index
 name: Design Styles Index
 description: 55 種設計風格的完整索引與快速參考
 ---

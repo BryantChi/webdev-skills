@@ -1,4 +1,5 @@
 ---
+id: fitness
 name: Fitness
 description: Fitness - 動感活力的健身運動風格
 ---

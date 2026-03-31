@@ -1,4 +1,5 @@
 ---
+id: coding_style_wizard
 name: Coding Style Wizard
 description: 透過 15 個問題引導選擇最適合的程式碼規範和工具設定
 ---

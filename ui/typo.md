@@ -1,4 +1,5 @@
 ---
+id: typography
 name: Typography
 description: 完整的排版系統，包含字型選擇、階層、行高
 ---

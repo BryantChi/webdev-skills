@@ -1,4 +1,5 @@
 ---
+id: restaurant
 name: Restaurant
 description: Restaurant - 溫暖美味的餐飲風格
 ---

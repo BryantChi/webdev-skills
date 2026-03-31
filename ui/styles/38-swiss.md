@@ -1,4 +1,5 @@
 ---
+id: swiss_style
 name: Swiss Style
 description: Swiss/International - 網格系統的精準設計
 ---

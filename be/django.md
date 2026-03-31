@@ -1,4 +1,5 @@
 ---
+id: django_guide
 name: Django Guide
 description: Django 開發最佳實踐
 ---

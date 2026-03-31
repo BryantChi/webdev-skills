@@ -1,4 +1,5 @@
 ---
+id: tech_minimal
 name: Tech Minimal
 description: Tech Minimal - 科技感的極簡設計
 ---

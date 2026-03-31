@@ -1,4 +1,5 @@
 ---
+id: education
 name: Education
 description: Education - 友善清晰的教育學習風格
 ---

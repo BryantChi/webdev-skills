@@ -1,4 +1,5 @@
 ---
+id: webdev_skills
 name: Webdev Skills
 description: 完整的網站開發指南，涵蓋 UI/UX 設計、React/Vue/Next.js 前端框架、Laravel/Node.js 後端、Coding Style 與互動式選擇精靈
 ---

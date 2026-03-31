@@ -1,4 +1,5 @@
 ---
+id: project_spec_template
 name: Project Spec Template
 description: 完整的專案需求規格書模板，涵蓋從概述到驗收標準
 ---

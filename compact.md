@@ -1,4 +1,5 @@
 ---
+id: compact_guide
 name: Compact Guide
 description: Token 優化版本（~2000 tokens），適用於 token 受限的 AI 工具
 ---

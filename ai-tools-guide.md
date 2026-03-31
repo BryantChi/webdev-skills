@@ -1,4 +1,5 @@
 ---
+id: ai_tools_guide
 name: AI Tools Guide
 description: 2026 最新版：如何在各種 AI 編程助手與 CLI 工具中載入和使用此 Skills 系統
 ---

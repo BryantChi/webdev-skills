@@ -1,4 +1,5 @@
 ---
+id: gradient
 name: Gradient
 description: Gradient - 多彩漸層的視覺衝擊風格
 ---

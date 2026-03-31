@@ -1,4 +1,5 @@
 ---
+id: installation_guide
 name: Installation Guide
 description: 2026 最新版安裝指南，涵蓋全域安裝（CLI）與專案級安裝（IDE）
 ---

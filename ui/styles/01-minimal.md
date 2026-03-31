@@ -1,4 +1,5 @@
 ---
+id: minimal
 name: Minimal
 description: Minimal - 少即是多的設計哲學
 ---

@@ -1,4 +1,5 @@
 ---
+id: design_system_generator
 name: Design System Generator
 description: Master + Overrides 模式的設計系統生成邏輯
 ---
