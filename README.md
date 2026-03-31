@@ -211,6 +211,28 @@ git submodule update --remote .agent/skills/webdev
 
 ## 🔧 自訂
 
+### 命名規範
+
+所有 `.md` 檔案的 YAML frontmatter 必須包含以下欄位：
+
+```yaml
+---
+id: glassmorphism              # snake_case 英文，CLI 工具用此匹配
+name: Glassmorphism            # English Title Case，顯示名稱
+description: 玻璃擬態設計風格   # 中文 + 英文技術詞
+---
+```
+
+| 欄位 | 格式 | 用途 |
+|------|------|------|
+| `id` | `snake_case` 英文 | CLI 工具識別碼（如 `/webdev_skills`） |
+| `name` | English Title Case | 顯示名稱（不可含中文） |
+| `description` | 中文 + 英文技術詞 | AI 自動判斷何時載入此 skill |
+
+> **重要**：`name` 不可使用中文或包含空格以外的特殊字元，否則 CLI 工具會無法辨識。
+
+### 新增內容
+
 - **新增風格**：在 `ui/styles/` 新增 `XX-name.md`
 - **新增框架**：在 `fe/` 或 `be/` 新增對應 `.md`
 - **修改精靈**：編輯 `wizard/` 中的問題
