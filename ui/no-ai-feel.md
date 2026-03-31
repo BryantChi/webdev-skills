@@ -1,5 +1,5 @@
 ---
-name: 去 AI 感設計指南
+name: No AI Feel Design Guide
 description: 確保設計呈現自然、有溫度、不商業化的指南
 ---
 

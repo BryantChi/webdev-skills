@@ -1,22 +1,6 @@
 ---
-name: 網站開發技能系統 (Webdev Skills)
-description: 完整的網站開發指南 (Full-stack Web Development Skills)，涵蓋 UI/UX、前後端框架、Coding Style，支援互動式選擇精靈。
-aliases:
-  - webdev
-  - web-development
-  - frontend
-  - backend
-  - 網站開發
-  - 網頁設計
-keywords:
-  - React
-  - Vue
-  - Next.js
-  - Tailwind
-  - Laravel
-  - Node.js
-  - UI/UX
-  - Design System
+name: Webdev Skills
+description: 完整的網站開發指南，涵蓋 UI/UX 設計、React/Vue/Next.js 前端框架、Laravel/Node.js 後端、Coding Style 與互動式選擇精靈
 ---
 
 # 🌐 網站開發技能系統

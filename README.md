@@ -1,6 +1,6 @@
 # 🌐 Webdev Skills System
 
-> 網站開發 AI 技能系統 - 適用於 Cursor、Windsurf、Claude、ChatGPT 等 AI 編程助手
+> 網站開發 AI 技能系統 - 適用於 Claude Code、Codex、Gemini、OpenCode、Cursor、Windsurf 等 AI 工具
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![繁體中文](https://img.shields.io/badge/語言-繁體中文-blue.svg)]()
@@ -11,52 +11,52 @@
 - 🧙 **互動式精靈** - 3 套問答引導選擇技術棧、風格、規範
 - 🚫 **去 AI 感設計** - 確保設計有人味，不像機器生成
 - ⚡ **Token 優化** - 精簡模式只需 ~2000 tokens
-- 🔧 **多工具支援** - Cursor、Windsurf、VS Code、Claude、ChatGPT 等
-
-## 🗣️ 如何觸發此技能？
-
-**支援的觸發詞 (Aliases)：**
-
-你可以在任何支援 Skills 的 AI 工具中，使用以下詞彙來觸發此技能系統：
-
-| 語言 | 關鍵字 |
-|------|--------|
-| English | `webdev`, `web-development`, `frontend`, `backend` |
-| 中文 | `網站開發`, `網頁設計` |
-
-**範例：**
-
-```text
-使用 webdev skill 幫我建立網站
-```
-
-```text
-啟動網站開發技能
-```
+- 🔧 **全工具支援** - CLI (Claude Code / Codex / Gemini / OpenCode) + IDE (Cursor / Windsurf / Antigravity)
 
 ## 📦 安裝
 
-### 方式一：Clone 到專案
+### 方式一：全域安裝（CLI 工具推薦）
+
+將 skill 安裝到 AI 工具的全域 skills 目錄，所有專案皆可使用：
+
+```bash
+# Claude Code CLI
+git clone https://github.com/BryantChi/webdev-skills.git ~/.claude/skills/webdev_skills
+
+# Codex CLI
+git clone https://github.com/BryantChi/webdev-skills.git ~/.codex/skills/webdev_skills
+
+# Gemini CLI
+git clone https://github.com/BryantChi/webdev-skills.git ~/.gemini/skills/webdev_skills
+
+# OpenCode CLI
+git clone https://github.com/BryantChi/webdev-skills.git ~/.opencode/skills/webdev_skills
+```
+
+### 方式二：專案級安裝（IDE 工具推薦）
 
 ```bash
 # 在你的專案根目錄
-git clone https://github.com/YOUR_USERNAME/webdev-skills.git .agent/skills/webdev
+mkdir -p .agent/skills
+git submodule add https://github.com/BryantChi/webdev-skills.git .agent/skills/webdev
 
-# 或使用 submodule
-git submodule add https://github.com/YOUR_USERNAME/webdev-skills.git .agent/skills/webdev
+# 或直接 clone
+git clone https://github.com/BryantChi/webdev-skills.git .agent/skills/webdev
 ```
 
-### 方式二：直接下載
+### 方式三：手動下載
 
-下載 ZIP 並解壓到 `.agent/skills/webdev/` 目錄
-
-### 方式三：複製整個目錄
-
-```bash
-cp -r webdev-skills/ YOUR_PROJECT/.agent/skills/webdev/
-```
+下載 ZIP 並解壓到對應目錄。
 
 ## 🚀 快速開始
+
+### CLI 工具
+
+全域安裝後，AI 會自動識別 skill。直接對話即可：
+
+```text
+幫我建立一個網站
+```
 
 ### Cursor / Windsurf
 
@@ -70,61 +70,48 @@ cp -r webdev-skills/ YOUR_PROJECT/.agent/skills/webdev/
 #file:.agent/skills/webdev/SKILL.md 幫我建立網站
 ```
 
-### Claude / ChatGPT
+### Claude.ai / ChatGPT
 
-將 `compact.md` 內容貼到對話中，或上傳到 Projects/GPTs
-
-### 精簡模式 (省 Token)
-
-```text
-讀取 .agent/skills/webdev/compact.md
-```
+將 `compact.md` 內容貼到對話中，或上傳到 Projects/GPTs。
 
 ## 📁 目錄結構
 
 ```
-.agent/skills/webdev/
-├── workflows/
-│   └── build-website.md  # 12 步完整開發流程
+webdev_skills/
+├── SKILL.md              # 📍 主入口 (SOP)
+├── compact.md            # ⚡ 精簡版 (~2000 tokens)
+├── spec.md               # 📋 需求規格書模板
 │
-    ├── SKILL.md              # 📍 主入口
-    ├── compact.md            # ⚡ 精簡版 (~2000 tokens)
-    ├── ai-tools-guide.md     # 🤖 AI 工具使用指南
-    ├── spec.md               # 📋 需求規格書模板
-    │
-    ├── wizard/               # 🧙 互動精靈
-    │   ├── tech.md           # 技術棧選擇 (12 題)
-    │   ├── style.md          # 設計風格選擇 (15 題)
-    │   └── code.md           # Coding Style 選擇 (15 題)
-    │
-    ├── ui/                   # 🎨 UI 設計
-    │   ├── color.md          # 色彩系統
-    │   ├── typo.md           # 字型排版
-    │   ├── space.md          # 間距系統
-    │   ├── a11y.md           # 無障礙設計
-    │   ├── no-ai-feel.md     # ⚠️ 去 AI 感指南
-    │   └── styles/           # 55 種設計風格
-    │       ├── index.md      # 風格索引
-    │       ├── colors.md     # 風格色碼速查
-    │       └── 01-55-*.md    # 各風格詳細指南
-    │
-    ├── fe/                   # 🖥️ 前端框架
-    │   ├── react.md, vue.md, next.md, nuxt.md, vanilla.md
-    │
-    ├── css/                  # 🎨 CSS 架構
-    │   ├── tailwind.md, bootstrap.md, scss.md, vanilla.md
-    │
-    ├── be/                   # 🔧 後端框架
-    │   ├── laravel.md, node.md, django.md, fastapi.md
-    │
-    ├── api/                  # 🔌 API 設計
-    ├── db/                   # 🗄️ 資料庫
-    ├── sec/                  # 🔒 安全性
-    ├── rwd/                  # 📱 響應式設計
-    ├── flow/                 # 🔄 開發流程
-    ├── check/                # ✅ 檢查清單
-    ├── code/                 # 📝 Coding Style
-    └── tpl/                  # 📄 模板
+├── logic/                # 🧠 核心邏輯
+│   ├── reasoning.md      # 設計推理引擎
+│   └── design-system-gen.md  # 設計系統生成器
+│
+├── wizard/               # 🧙 互動精靈
+│   ├── tech.md           # 技術棧選擇 (12 題)
+│   ├── style.md          # 設計風格選擇 (15 題)
+│   └── code.md           # Coding Style 選擇 (15 題)
+│
+├── ui/                   # 🎨 UI 設計
+│   ├── color.md          # 色彩系統
+│   ├── typo.md           # 字型排版
+│   ├── space.md          # 間距系統
+│   ├── a11y.md           # 無障礙設計
+│   ├── no-ai-feel.md     # ⚠️ 去 AI 感指南
+│   └── styles/           # 55 種設計風格
+│
+├── fe/                   # 🖥️ 前端 (React, Vue, Next.js, Nuxt.js, Vanilla)
+├── be/                   # 🔧 後端 (Laravel, Node.js, Django, FastAPI)
+├── css/                  # 🎨 CSS (Tailwind, Bootstrap, SCSS, Vanilla)
+├── api/                  # 🔌 API 設計
+├── db/                   # 🗄️ 資料庫
+├── sec/                  # 🔒 安全性
+├── rwd/                  # 📱 響應式設計
+├── flow/                 # 🔄 開發流程
+├── code/                 # 📝 Coding Style
+├── check/                # ✅ 檢查清單
+├── tpl/                  # 📄 元件/頁面模板
+└── workflows/            # 🚀 工作流程
+    └── build-website.md  # 12 步完整開發流程
 ```
 
 ## 🎨 55 種設計風格
@@ -162,17 +149,20 @@ cp -r webdev-skills/ YOUR_PROJECT/.agent/skills/webdev/
 
 ## 🤖 支援的 AI 工具
 
-| 工具 | 相容性 | 載入方式 |
-|-----|--------|---------|
-| Cursor | ✅ | @file 引用 |
-| Windsurf | ✅ | @file 引用 |
-| VS Code + Copilot | ✅ | #file 引用 |
-| Claude | ✅ | Projects/貼上 |
-| ChatGPT | ⚠️ | GPTs/貼上 |
-| Aider | ✅ | /add 指令 |
-| Claude CLI | ✅ | 自動讀取 |
+| 工具 | 類型 | 相容性 | 安裝位置 |
+|-----|------|--------|---------|
+| Claude Code | CLI | ✅ | `~/.claude/skills/webdev_skills/` |
+| Codex CLI | CLI | ✅ | `~/.codex/skills/webdev_skills/` |
+| Gemini CLI | CLI | ✅ | `~/.gemini/skills/webdev_skills/` |
+| OpenCode CLI | CLI | ✅ | `~/.opencode/skills/webdev_skills/` |
+| Antigravity | IDE | ✅ | `.agent/skills/webdev/` (專案內) |
+| Cursor | IDE | ✅ | `.agent/skills/webdev/` (專案內) |
+| Windsurf | IDE | ✅ | `.agent/skills/webdev/` (專案內) |
+| VS Code + Copilot | IDE | ✅ | `#file:` 引用 |
+| Aider | CLI | ✅ | `--read` 載入 |
+| Claude.ai / ChatGPT | Web | ✅ | 貼上或上傳 |
 
-詳見 [ai-tools-guide.md](skills/webdev/ai-tools-guide.md)
+詳見 [ai-tools-guide.md](ai-tools-guide.md)
 
 ## 📖 使用指南
 
@@ -182,7 +172,7 @@ cp -r webdev-skills/ YOUR_PROJECT/.agent/skills/webdev/
 幫我建立一個網站
 ```
 
-AI 會自動執行 12 步流程：需求收集 → 技術選擇 → 風格確定 → 開發...
+AI 會自動執行 SOP：需求收集 → 設計推理 → 技術選擇 → 設計系統 → 開發
 
 ### 快速指定
 
@@ -200,7 +190,7 @@ AI 會自動執行 12 步流程：需求收集 → 技術選擇 → 風格確定
 
 ## ⚠️ 核心原則：去 AI 感
 
-所有設計必須遵守 [no-ai-feel.md](skills/webdev/ui/no-ai-feel.md)：
+所有設計必須遵守 [no-ai-feel.md](ui/no-ai-feel.md)：
 
 - ❌ 不要完美對稱佈局
 - ❌ 不要庫存照片
@@ -209,27 +199,25 @@ AI 會自動執行 12 步流程：需求收集 → 技術選擇 → 風格確定
 - ✅ 要適度的不對稱
 - ✅ 要真實的內容
 
+## 🔄 更新
+
+```bash
+# 全域安裝更新
+cd ~/.claude/skills/webdev_skills && git pull
+
+# 專案 Submodule 更新
+git submodule update --remote .agent/skills/webdev
+```
+
 ## 🔧 自訂
 
-### 新增風格
-
-在 `ui/styles/` 新增 `XX-name.md`，參考現有格式
-
-### 新增框架
-
-在 `fe/` 或 `be/` 新增對應的 `.md` 檔案
-
-### 修改精靈
-
-編輯 `wizard/` 中的問題
+- **新增風格**：在 `ui/styles/` 新增 `XX-name.md`
+- **新增框架**：在 `fe/` 或 `be/` 新增對應 `.md`
+- **修改精靈**：編輯 `wizard/` 中的問題
 
 ## 📄 License
 
 MIT License - 自由使用、修改、分發
-
-## 🙏 貢獻
-
-歡迎 PR 和 Issue！
 
 ---
 

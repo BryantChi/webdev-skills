@@ -1,6 +1,6 @@
 ---
-name: UI 設計技能
-description: 完整的 UI 設計指南，涵蓋色彩、排版、間距、無障礙和 55+ 設計風格
+name: UI Design
+description: 色彩、排版、間距、Accessibility 與 55+ 設計風格指南
 ---
 
 # 🎨 UI 設計技能

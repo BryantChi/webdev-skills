@@ -1,6 +1,6 @@
 ---
-name: 響應式設計技能
-description: 斷點、行動優先、多裝置適配指南
+name: Responsive Design
+description: 斷點、Mobile-First 與多裝置適配指南
 ---
 
 # 📱 響應式設計 (RWD)

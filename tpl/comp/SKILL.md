@@ -1,6 +1,6 @@
 ---
-name: 元件模板
-description: 常用 UI 元件的程式碼模板
+name: Component Templates
+description: Button、Form、Card、Nav、Modal 等 UI 元件模板
 ---
 
 # 🧩 元件模板

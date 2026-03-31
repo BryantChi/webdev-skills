@@ -1,6 +1,6 @@
 ---
-name: 網站開發完整工作流程
-description: 使用網站開發 Skills 系統建立完整網站的標準工作流程
+name: Build Website Workflow
+description: 使用 Webdev Skills 系統建立完整網站的標準工作流程
 ---
 
 # 🚀 網站開發完整工作流程

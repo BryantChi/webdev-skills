@@ -1,6 +1,6 @@
 ---
-name: 開發流程技能
-description: Git、測試、部署、效能優化指南
+name: Dev Workflow
+description: Git、Testing、Deploy 與效能優化指南
 ---
 
 # 🔄 開發流程技能

@@ -1,6 +1,6 @@
 ---
-name: API 設計技能
-description: REST API 和 GraphQL 設計指南
+name: API Design
+description: REST API 與 GraphQL 設計規範指南
 ---
 
 # 🔌 API 設計技能

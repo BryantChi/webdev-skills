@@ -1,6 +1,6 @@
 ---
-name: 頁面模板
-description: 常用頁面佈局的程式碼模板
+name: Page Templates
+description: Landing、Dashboard、Auth 等頁面佈局模板
 ---
 
 # 📄 頁面模板

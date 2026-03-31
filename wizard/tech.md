@@ -1,5 +1,5 @@
 ---
-name: 技術棧選擇精靈
+name: Tech Stack Wizard
 description: 透過 12 個問題引導選擇最適合的前後端技術棧
 ---
 

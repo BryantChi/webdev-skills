@@ -1,6 +1,6 @@
 ---
-name: 資料庫技能
-description: Schema 設計、ORM 和遷移指南
+name: Database Design
+description: Schema 設計、ORM 與 Migration 指南
 ---
 
 # 🗄️ 資料庫技能

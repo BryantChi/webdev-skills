@@ -1,6 +1,6 @@
 ---
-name: 設計系統生成器
-description: Design System Generator — Master + Overrides 模式的設計系統生成邏輯
+name: Design System Generator
+description: Master + Overrides 模式的設計系統生成邏輯
 ---
 
 # 📐 設計系統生成器 (Design System Generator)

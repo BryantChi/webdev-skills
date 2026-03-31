@@ -1,6 +1,6 @@
 ---
-name: 後端框架技能
-description: 涵蓋 Laravel、Node.js、Django、FastAPI 等後端框架指南
+name: Backend Frameworks
+description: Laravel、Node.js、Django、FastAPI 後端框架指南
 ---
 
 # 🔧 後端框架技能

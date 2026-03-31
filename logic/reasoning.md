@@ -1,6 +1,6 @@
 ---
-name: 設計推理引擎
-description: Design Reasoning Engine — 設計決策推理與反模式過濾邏輯
+name: Design Reasoning Engine
+description: 設計決策推理與反模式過濾邏輯
 ---
 
 # 🧠 設計推理引擎 (Design Reasoning Engine)

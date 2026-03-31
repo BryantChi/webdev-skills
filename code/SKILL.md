@@ -1,6 +1,6 @@
 ---
-name: Coding Style 技能
-description: JavaScript、TypeScript、PHP、Python、CSS 程式碼規範
+name: Coding Style
+description: JavaScript、TypeScript、PHP、Python、CSS 代碼規範
 ---
 
 # 📝 Coding Style 技能

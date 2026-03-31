@@ -1,6 +1,6 @@
 ---
-name: 互動選擇精靈
-description: 透過問答引導選擇最適合的技術棧、設計風格和 Coding Style
+name: Interactive Wizard
+description: 透過問答引導選擇技術棧、設計風格和 Coding Style
 ---
 
 # 🧙 互動選擇精靈

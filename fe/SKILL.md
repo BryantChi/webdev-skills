@@ -1,6 +1,6 @@
 ---
-name: 前端框架技能
-description: 涵蓋 React、Vue、Next.js、Nuxt.js 等主流前端框架指南
+name: Frontend Frameworks
+description: React、Vue、Next.js、Nuxt.js、Vanilla JS 前端框架指南
 ---
 
 # 🖥️ 前端框架技能

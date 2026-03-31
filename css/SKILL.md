@@ -1,6 +1,6 @@
 ---
-name: CSS 架構技能
-description: Tailwind、Bootstrap、SCSS 等 CSS 方案指南
+name: CSS Architecture
+description: Tailwind、Bootstrap、SCSS、Vanilla CSS 方案指南
 ---
 
 # 🎨 CSS 架構技能

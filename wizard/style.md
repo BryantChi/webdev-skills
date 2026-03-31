@@ -1,5 +1,5 @@
 ---
-name: 設計風格選擇精靈
+name: Design Style Wizard
 description: 透過 15 個問題引導選擇最適合的設計風格
 ---
 

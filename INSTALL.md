@@ -1,88 +1,105 @@
 ---
-name: 安裝指南
-description: 2026 最新版安裝指南 - 適用於任何專案與 AI 工具
+name: Installation Guide
+description: 2026 最新版安裝指南，涵蓋全域安裝（CLI）與專案級安裝（IDE）
 ---
 
 # 📦 安裝指南 (Installation Guide)
 
-本 Skills 系統採用 **Agent Native** 架構，只需將檔案放置於專案特定目錄，即可被大多數 AI 代理自動識別。
+本 Skills 系統採用 **Agent Native** 架構，支援全域安裝（CLI 工具）和專案級安裝（IDE 工具）。
 
 ---
 
-## 🚀 快速安裝
+## 🚀 方式一：全域安裝（CLI 工具推薦）
 
-### 方式一：Git Submodule (推薦用於團隊) ✅
-
-這是 2026 年最標準的 Skills 管理方式，讓 Skill 版本隨專案更新。
+安裝到 AI 工具的全域 skills 目錄，所有專案皆可自動使用。
 
 ```bash
-# 確保目錄存在
+# Claude Code CLI
+git clone https://github.com/BryantChi/webdev-skills.git ~/.claude/skills/webdev_skills
+
+# Codex CLI
+git clone https://github.com/BryantChi/webdev-skills.git ~/.codex/skills/webdev_skills
+
+# Gemini CLI
+git clone https://github.com/BryantChi/webdev-skills.git ~/.gemini/skills/webdev_skills
+
+# OpenCode CLI
+git clone https://github.com/BryantChi/webdev-skills.git ~/.opencode/skills/webdev_skills
+```
+
+> **命名規範**：目錄名必須使用 `webdev_skills`（snake_case 英文），不可使用中文或空格。
+
+---
+
+## 🚀 方式二：專案級安裝（IDE 工具推薦）
+
+### Git Submodule (推薦用於團隊)
+
+```bash
 mkdir -p .agent/skills
-
-# 新增 Submodule (請替換為實際 Repo URL)
 git submodule add https://github.com/BryantChi/webdev-skills.git .agent/skills/webdev
-
-# 初始化
 git submodule update --init --recursive
 ```
 
-### 方式二：Git Clone (適用於個人專案)
+### Git Clone (適用於個人專案)
 
 ```bash
 mkdir -p .agent/skills
 git clone https://github.com/BryantChi/webdev-skills.git .agent/skills/webdev
 ```
 
-### 方式三：手動下載
+### 手動下載
 
-1. 下載 ZIP 檔案。
-2. 解壓縮到專案根目錄的 `.agent/skills/webdev/`。
+下載 ZIP 並解壓到專案根目錄的 `.agent/skills/webdev/`。
 
 ---
 
-## 📂 標準目錄結構
+## 📂 安裝後目錄結構
 
-安裝完成後，你的專案結構應如下所示（這是 Agent 自動發現的標準結構）：
+### 全域安裝（CLI）
+
+```text
+~/.claude/skills/          # 或 ~/.codex/ ~/.gemini/ ~/.opencode/
+├── webdev_skills/         # ← 本系統
+│   ├── SKILL.md           # SOP 入口
+│   ├── logic/             # 推理引擎
+│   ├── ui/                # 設計系統
+│   └── ...
+├── coding_style_conventions/  # 其他 skill 範例
+└── ...
+```
+
+### 專案級安裝（IDE）
 
 ```text
 my-project/
 ├── .agent/
-│   ├── skills/
-│   │   └── webdev/          # [本系統核心]
-│   │       ├── SKILL.md     # SOP 入口
-│   │       ├── logic/       # 推理引擎
-│   │       ├── ui/          # 設計系統
-│   │       └── ...
-│   └── workflows/           # (選擇性) 工作流程捷徑
-│       └── build-website.md # 方便直接呼叫
+│   └── skills/
+│       └── webdev/        # ← 本系統
+│           ├── SKILL.md
+│           ├── logic/
+│           ├── ui/
+│           └── ...
 ├── src/
-├── package.json
-└── ...
+└── package.json
 ```
 
 ---
 
 ## ⚙️ 環境設置 (Optional)
 
-### 1. Antigravity / Gemini IDE 設定
+### Antigravity / Gemini IDE
 
-為了啟用 `/build-website` 斜線指令，建議將 workflow 複製到頂層：
+啟用 `/build-website` 斜線指令：
 
 ```bash
-# Windows (PowerShell)
-mkdir -p .agent/workflows
-Copy-Item .agent/skills/webdev/workflows/build-website.md .agent/workflows/
-
-# macOS / Linux
 mkdir -p .agent/workflows
 cp .agent/skills/webdev/workflows/build-website.md .agent/workflows/
 ```
 
-### 2. Cursor / Windsurf 規則設定
+### Cursor 規則
 
-為了讓 AI 自動遵守規範，建議建立全域規則 (.cursor/rules 或 .windsurf/rules)：
-
-**建立 `.cursor/rules/webdev.mdc`：**
+建立 `.cursor/rules/webdev.mdc`：
 
 ```markdown
 ---
@@ -95,41 +112,45 @@ globs: ["**/*.{ts,tsx,js,jsx,vue,html,css}"]
 2. 必須遵守 @.agent/skills/webdev/ui/no-ai-feel.md
 ```
 
+### Windsurf 規則
+
+建立 `.windsurf/rules/global.md`：
+
+```markdown
+當涉及網頁開發時，請優先參考 .agent/skills/webdev/SKILL.md 的標準作業程序。
+```
+
 ---
 
 ## ✅ 驗證安裝
 
-在你的 AI 工具中輸入以下指令測試：
+### CLI 工具
 
-**通用 Prompt:**
+直接對話測試：
+
+```text
+幫我建立一個網站
+```
+
+AI 應自動觸發 SOP Phase 1（智慧推理）。
+
+### IDE 工具
+
 ```text
 讀取 .agent/skills/webdev/SKILL.md 並告訴我 SOP 的 Phase 1 是什麼？
 ```
 
-**Antigravity:**
-```text
-/build-website (如果你有設定 workflow)
-或
-使用 webdev skill 建立網站
-```
-
-**OpenCode CLI:**
-```bash
-opencode map .agent/skills/webdev
-```
-
-若 AI 能正確回答「智慧推理 (Reasoning)」，則安裝成功！🎉
-
 ---
 
-## 🔄 更新與維護
-
-保持 Skill 在最新狀態：
+## 🔄 更新
 
 ```bash
-# 若使用 Submodule
+# 全域安裝
+cd ~/.claude/skills/webdev_skills && git pull
+
+# 專案 Submodule
 git submodule update --remote .agent/skills/webdev
 
-# 若使用 Clone
+# 專案 Clone
 cd .agent/skills/webdev && git pull
 ```

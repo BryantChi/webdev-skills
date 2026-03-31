@@ -1,6 +1,6 @@
 ---
-name: 精簡版核心指南
-description: Token 優化版本，適用於 token 受限的 AI 工具
+name: Compact Guide
+description: Token 優化版本（~2000 tokens），適用於 token 受限的 AI 工具
 ---
 
 # ⚡ 精簡版核心指南
@@ -131,4 +131,4 @@ description: Token 優化版本，適用於 token 受限的 AI 工具
 - 設計系統：`ui/color.md`, `ui/typo.md`, `ui/space.md`
 - 特定風格：`ui/styles/XX-name.md`
 - 特定框架：`fe/react.md`, `be/laravel.md` 等
-- 完整流程：`../workflows/build-website.md`
+- 完整流程：`workflows/build-website.md`
