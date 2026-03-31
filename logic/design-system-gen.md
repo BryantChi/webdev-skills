@@ -1,3 +1,8 @@
+---
+name: 設計系統生成器
+description: Design System Generator — Master + Overrides 模式的設計系統生成邏輯
+---
+
 # 📐 設計系統生成器 (Design System Generator)
 
 > **核心邏輯 (Core Logic)：** 我們採用 **「Master + Overrides (主檔 + 覆寫)」** 模式。一個全域的真理來源 (`MASTER.md`) 定義核心品牌，而頁面專屬檔案 (`pages/xxx.md`) 允許必要的偏差。

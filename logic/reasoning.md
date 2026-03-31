@@ -1,3 +1,8 @@
+---
+name: 設計推理引擎
+description: Design Reasoning Engine — 設計決策推理與反模式過濾邏輯
+---
+
 # 🧠 設計推理引擎 (Design Reasoning Engine)
 
 > **關鍵指令：** 在寫任何程式碼或建立任何檔案之前，**必須** 先輸出下方的 **設計推理區塊 (Design Reasoning Block)**。這強制執行「先思考，再行動」的原則。
