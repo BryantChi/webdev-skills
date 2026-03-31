@@ -1,5 +1,5 @@
 ---
-name: 編輯風格
+name: Editorial
 description: Editorial - 雜誌排版的視覺風格
 ---
 

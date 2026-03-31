@@ -1,5 +1,5 @@
 ---
-name: Bootstrap 指南
+name: Bootstrap Guide
 description: Bootstrap 5 開發最佳實踐
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: REST API 設計
+name: REST API Design
 description: REST API 設計詳細指南
 ---
 

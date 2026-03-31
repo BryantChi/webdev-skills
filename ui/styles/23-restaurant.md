@@ -1,5 +1,5 @@
 ---
-name: 餐飲風格
+name: Restaurant
 description: Restaurant - 溫暖美味的餐飲風格
 ---
 

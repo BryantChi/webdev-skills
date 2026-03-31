@@ -1,5 +1,5 @@
 ---
-name: FastAPI 指南
+name: FastAPI Guide
 description: FastAPI 開發最佳實踐
 ---
 

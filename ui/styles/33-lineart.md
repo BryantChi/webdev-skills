@@ -1,5 +1,5 @@
 ---
-name: 線條藝術
+name: Line Art
 description: Line Art - 細線條簡筆畫的優雅風格
 ---
 

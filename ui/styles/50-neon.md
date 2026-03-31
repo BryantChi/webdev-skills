@@ -1,5 +1,5 @@
 ---
-name: 霓虹風格
+name: Neon
 description: Neon - 發光霓虹管的視覺風格
 ---
 

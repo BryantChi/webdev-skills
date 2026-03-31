@@ -1,5 +1,5 @@
 ---
-name: 扁平化設計
+name: Flat Design
 description: Flat Design - 無陰影、純色塊的簡潔風格
 ---
 

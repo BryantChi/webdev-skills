@@ -1,5 +1,5 @@
 ---
-name: 金融風格
+name: Finance
 description: Finance - 穩重安全的金融設計風格
 ---
 

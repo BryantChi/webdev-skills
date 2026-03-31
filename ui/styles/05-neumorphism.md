@@ -1,5 +1,5 @@
 ---
-name: 新擬物
+name: Neumorphism
 description: Neumorphism - 柔和陰影的凸起效果
 ---
 

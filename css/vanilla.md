@@ -1,5 +1,5 @@
 ---
-name: Vanilla CSS 指南
+name: Vanilla CSS Guide
 description: 原生 CSS 開發最佳實踐
 ---
 

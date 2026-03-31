@@ -1,5 +1,5 @@
 ---
-name: Vanilla JavaScript 指南
+name: Vanilla JavaScript Guide
 description: 原生 JavaScript 開發最佳實踐
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: 瑞士風格
+name: Swiss Style
 description: Swiss/International - 網格系統的精準設計
 ---
 

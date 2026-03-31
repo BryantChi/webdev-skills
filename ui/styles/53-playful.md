@@ -1,5 +1,5 @@
 ---
-name: 童趣風格
+name: Playful
 description: Playful/Kids - 活潑可愛的兒童風格
 ---
 

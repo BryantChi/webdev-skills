@@ -1,5 +1,5 @@
 ---
-name: 遊戲風格
+name: Gaming
 description: Gaming - 動態炫酷的遊戲網站風格
 ---
 

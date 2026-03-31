@@ -1,5 +1,5 @@
 ---
-name: Node.js 指南
+name: Node.js Guide
 description: Node.js + Express 開發最佳實踐
 ---
 

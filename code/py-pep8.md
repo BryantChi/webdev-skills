@@ -1,5 +1,5 @@
 ---
-name: Python PEP8 規範
+name: Python PEP8 Style
 description: Python 官方編碼規範
 ---
 

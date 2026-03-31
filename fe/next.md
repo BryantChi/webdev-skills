@@ -1,5 +1,5 @@
 ---
-name: Next.js 指南
+name: Next.js Guide
 description: Next.js 14+ App Router 開發最佳實踐
 ---
 

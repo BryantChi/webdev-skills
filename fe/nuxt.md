@@ -1,5 +1,5 @@
 ---
-name: Nuxt.js 指南
+name: Nuxt.js Guide
 description: Nuxt.js 3 開發最佳實踐
 ---
 

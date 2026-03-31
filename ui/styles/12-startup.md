@@ -1,5 +1,5 @@
 ---
-name: 新創風格
+name: Startup
 description: Startup - 活力現代的科技新創風格
 ---
 

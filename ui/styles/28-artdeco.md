@@ -1,5 +1,5 @@
 ---
-name: 裝飾藝術
+name: Art Deco
 description: Art Deco - 對稱幾何的 1920 年代奢華風格
 ---
 

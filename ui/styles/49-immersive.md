@@ -1,5 +1,5 @@
 ---
-name: VR/AR 風格
+name: VR/AR Immersive
 description: Immersive - 沉浸式體驗的視覺風格
 ---
 

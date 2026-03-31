@@ -1,5 +1,5 @@
 ---
-name: 電商風
+name: E-commerce
 description: E-commerce - 商品導向的電商網站風格
 ---
 

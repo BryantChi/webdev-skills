@@ -1,5 +1,5 @@
 ---
-name: 風格色碼速查
+name: Style Color Reference
 description: 所有 55 種風格的配色速查表，最小化 token 消耗
 ---
 

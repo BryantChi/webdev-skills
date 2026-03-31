@@ -1,5 +1,5 @@
 ---
-name: 波普藝術
+name: Pop Art
 description: Pop Art - 漫畫風的鮮豔設計
 ---
 

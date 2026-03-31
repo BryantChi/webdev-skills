@@ -1,5 +1,5 @@
 ---
-name: 奢華風
+name: Luxury
 description: Luxury - 黑金配色的高端精緻風格
 ---
 

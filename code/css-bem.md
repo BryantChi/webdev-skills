@@ -1,5 +1,5 @@
 ---
-name: CSS BEM 規範
+name: CSS BEM Style
 description: Block Element Modifier 命名規範
 ---
 

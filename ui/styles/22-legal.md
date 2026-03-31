@@ -1,5 +1,5 @@
 ---
-name: 法律風格
+name: Legal
 description: Legal - 傳統權威的法律服務設計
 ---
 

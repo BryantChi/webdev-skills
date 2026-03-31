@@ -1,5 +1,5 @@
 ---
-name: 醫療風格
+name: Medical
 description: Medical - 乾淨專業的醫療健康風格
 ---
 

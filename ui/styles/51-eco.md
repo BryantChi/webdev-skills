@@ -1,5 +1,5 @@
 ---
-name: 環保風格
+name: Eco
 description: Eco/Green - 自然環保的綠色風格
 ---
 

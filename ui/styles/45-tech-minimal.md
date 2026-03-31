@@ -1,5 +1,5 @@
 ---
-name: 科技極簡風格
+name: Tech Minimal
 description: Tech Minimal - 科技感的極簡設計
 ---
 

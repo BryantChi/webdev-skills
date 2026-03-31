@@ -1,5 +1,5 @@
 ---
-name: 旅遊風格
+name: Travel
 description: Travel - 冒險大圖的旅遊觀光風格
 ---
 

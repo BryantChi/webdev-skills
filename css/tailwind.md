@@ -1,5 +1,5 @@
 ---
-name: Tailwind CSS 指南
+name: Tailwind CSS Guide
 description: Tailwind CSS 開發最佳實踐
 ---
 

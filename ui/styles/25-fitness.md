@@ -1,5 +1,5 @@
 ---
-name: 健身風格
+name: Fitness
 description: Fitness - 動感活力的健身運動風格
 ---
 

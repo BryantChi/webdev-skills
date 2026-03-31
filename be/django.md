@@ -1,5 +1,5 @@
 ---
-name: Django 指南
+name: Django Guide
 description: Django 開發最佳實踐
 ---
 

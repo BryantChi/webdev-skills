@@ -1,5 +1,5 @@
 ---
-name: TypeScript 規範
+name: TypeScript Style
 description: TypeScript 編碼規範與最佳實踐
 ---
 

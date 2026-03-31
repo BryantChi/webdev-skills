@@ -1,5 +1,5 @@
 ---
-name: React 指南
+name: React Guide
 description: React 18+ 開發最佳實踐
 ---
 

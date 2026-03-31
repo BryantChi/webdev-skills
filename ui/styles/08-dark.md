@@ -1,5 +1,5 @@
 ---
-name: 暗黑模式
+name: Dark Mode
 description: Dark Mode - 深色主題設計
 ---
 

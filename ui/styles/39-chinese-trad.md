@@ -1,5 +1,5 @@
 ---
-name: 中式傳統
+name: Chinese Traditional
 description: Chinese Traditional - 古典書法元素的傳統風格
 ---
 

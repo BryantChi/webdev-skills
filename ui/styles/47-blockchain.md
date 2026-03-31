@@ -1,5 +1,5 @@
 ---
-name: 區塊鏈風格
+name: Blockchain
 description: Blockchain - 加密貨幣與區塊鏈的視覺風格
 ---
 

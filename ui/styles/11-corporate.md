@@ -1,5 +1,5 @@
 ---
-name: 企業風
+name: Corporate
 description: Corporate - 專業穩重的企業網站風格
 ---
 

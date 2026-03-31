@@ -1,5 +1,5 @@
 ---
-name: 水彩風格
+name: Watercolor
 description: Watercolor - 柔和暈染的手繪風格
 ---
 

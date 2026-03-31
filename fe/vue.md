@@ -1,5 +1,5 @@
 ---
-name: Vue 指南
+name: Vue Guide
 description: Vue 3 Composition API 開發最佳實踐
 ---
 

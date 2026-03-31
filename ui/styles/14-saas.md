@@ -1,5 +1,5 @@
 ---
-name: SaaS 風格
+name: SaaS
 description: SaaS - 軟體服務產品的現代風格
 ---
 

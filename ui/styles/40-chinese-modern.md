@@ -1,5 +1,5 @@
 ---
-name: 中式現代
+name: Chinese Modern
 description: Chinese Modern - 東方美學的現代詮釋
 ---
 

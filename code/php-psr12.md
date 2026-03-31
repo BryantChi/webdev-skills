@@ -1,5 +1,5 @@
 ---
-name: PHP PSR-12 規範
+name: PHP PSR-12 Style
 description: PHP 官方編碼標準
 ---
 

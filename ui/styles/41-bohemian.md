@@ -1,5 +1,5 @@
 ---
-name: 波希米亞風格
+name: Bohemian
 description: Bohemian - 民族圖騰的自由風格
 ---
 

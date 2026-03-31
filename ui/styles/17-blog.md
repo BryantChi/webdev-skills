@@ -1,5 +1,5 @@
 ---
-name: 部落格風格
+name: Blog
 description: Blog - 內容優先的閱讀友善風格
 ---
 

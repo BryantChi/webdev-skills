@@ -1,5 +1,5 @@
 ---
-name: 亮白模式
+name: Light Mode
 description: Light Mode - 純白清新的設計風格
 ---
 

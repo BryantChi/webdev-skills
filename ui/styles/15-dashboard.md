@@ -1,5 +1,5 @@
 ---
-name: 儀表板風格
+name: Dashboard
 description: Dashboard - 數據視覺化的管理介面風格
 ---
 

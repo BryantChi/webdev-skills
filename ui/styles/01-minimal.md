@@ -1,5 +1,5 @@
 ---
-name: 極簡風
+name: Minimal
 description: Minimal - 少即是多的設計哲學
 ---
 

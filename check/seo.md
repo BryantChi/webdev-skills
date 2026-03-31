@@ -1,5 +1,5 @@
 ---
-name: SEO 檢查清單
+name: SEO Checklist
 description: 搜尋引擎優化完整檢查清單
 ---
 

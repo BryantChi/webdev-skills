@@ -1,5 +1,5 @@
 ---
-name: 漸層風格
+name: Gradient
 description: Gradient - 多彩漸層的視覺衝擊風格
 ---
 

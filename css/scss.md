@@ -1,5 +1,5 @@
 ---
-name: SCSS 指南
+name: SCSS Guide
 description: SCSS/Sass 開發最佳實踐
 ---
 

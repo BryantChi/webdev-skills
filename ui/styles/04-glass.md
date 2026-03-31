@@ -1,5 +1,5 @@
 ---
-name: 玻璃擬態
+name: Glassmorphism
 description: Glassmorphism - 毛玻璃透明效果
 ---
 

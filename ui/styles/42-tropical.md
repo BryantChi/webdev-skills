@@ -1,5 +1,5 @@
 ---
-name: 熱帶風格
+name: Tropical
 description: Tropical - 熱帶植物的度假風格
 ---
 

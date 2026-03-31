@@ -1,5 +1,5 @@
 ---
-name: 科幻風格
+name: Sci-Fi
 description: Sci-Fi - 太空與未來科技的設計風格
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: 插畫風格
+name: Illustration
 description: Illustration - 自訂插圖的品牌識別風格
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: 間距系統
+name: Spacing System
 description: 完整的間距與佈局系統
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: 雙色調風格
+name: Duotone
 description: Duotone - 雙色處理的藝術風格
 ---
 

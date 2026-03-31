@@ -1,5 +1,5 @@
 ---
-name: 上線前檢查清單
+name: Launch Checklist
 description: 網站上線前的完整檢查清單
 ---
 
