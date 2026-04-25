@@ -158,29 +158,104 @@ composer create-project laravel/laravel my-project
 
 - `rwd/SKILL.md`
 - `ui/a11y.md`
+- `test/a11y-axe.md`（自動化）
 
 **檢查：**
 
 - [ ] 所有斷點測試
-- [ ] 鍵盤導航
-- [ ] 色彩對比度
+- [ ] 鍵盤導航 + `:focus-visible`
+- [ ] 色彩對比度 ≥4.5:1
 - [ ] alt 文字
+- [ ] 跑 axe-core：`npx @axe-core/cli http://localhost:3000`
 
 ---
 
-### Phase 11：上線前檢查
+### Phase 11：測試體系建立 (New)
+
+**讀取：** `test/compact.md`
+
+**建立順序：**
+
+1. **單元測試**：`test/unit-vitest.md` — 元件、hook、純邏輯
+2. **E2E**：`test/e2e-playwright.md` — 主要使用者旅程
+3. **視覺回歸**：`test/visual-regression.md` — 關鍵頁面
+4. **a11y in test**：每個 E2E 跑一次 `@axe-core/playwright`
+
+**最低要求：**
+
+- [ ] 主流程 E2E（登入 / 首頁 / 結帳）
+- [ ] 元件單元測試 ≥80%
+- [ ] CI 整合（見 `deploy/ci-github.md`）
+
+---
+
+### Phase 12：效能優化 (New)
+
+**讀取：** `perf/compact.md`
+
+**目標：**
+
+- [ ] LCP ≤ 2.5s
+- [ ] INP ≤ 200ms
+- [ ] CLS ≤ 0.1
+- [ ] Lighthouse ≥ 90
+
+**動作：**
+
+1. `perf/cwv.md` 套用 Core Web Vitals 修補
+2. `perf/bundle.md` 控 bundle size
+3. `perf/lighthouse.md` 設 CI gate
+4. 跑 `check/lighthouse.md` 檢查清單
+
+---
+
+### Phase 13：技術 SEO (New)
+
+**讀取：** `seo/compact.md`
+
+**動作：**
+
+1. `seo/meta-og.md` — 每頁 metadata + OG image
+2. `seo/schema.md` — JSON-LD 結構化資料（Article / Product / FAQ）
+3. `seo/sitemap-robots.md` — sitemap.xml + robots.txt
+4. `seo/canonical.md` — canonical / hreflang（多語）
+
+**檢查：**
+
+- [ ] 跑 `check/seo.md` 清單
+- [ ] [Rich Results Test](https://search.google.com/test/rich-results) 通過
+- [ ] Search Console 提交 sitemap
+
+---
+
+### Phase 14：上線前最終檢查
 
 **讀取並執行：**
 
 - `check/launch.md`
+- `check/lighthouse.md`
+- `check/a11y.md`
 - `check/seo.md`
 - `sec/SKILL.md`
 
 ---
 
-### Phase 12：部署
+### Phase 15：部署 + 監控
 
-**讀取：** `flow/SKILL.md`
+**讀取：**
+
+- `deploy/SKILL.md`（選平台）
+- `deploy/ci-github.md`（CI/CD）
+- `obs/SKILL.md`（監控）
+
+**動作：**
+
+1. 選擇部署平台（`deploy/compact.md` 決策表）
+2. 設 CI 流程（lint → typecheck → test → build → e2e → lhci）
+3. 安裝 Sentry：`obs/sentry.md`
+4. 安裝 Web Vitals RUM：`obs/web-vitals-reporter.md`
+5. 設 alert 規則（5xx、LCP > 4s）
+6. 部署後 smoke test
 
 ---
 
