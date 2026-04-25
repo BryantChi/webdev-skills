@@ -149,3 +149,16 @@ export function errorHandler(
 4. **環境變數管理**
 5. **Async/Await 處理非同步**
 6. **驗證中間件 (Joi/Zod)**
+
+---
+
+## 相關技能
+
+- [Coding Style: TypeScript](../code/ts.md)
+- [API 設計](../api/SKILL.md)
+- [安全性](../sec/SKILL.md)
+- [Auth.js](../auth/auth-js.md) / [JWT-Cookie](../auth/jwt-cookie.md)
+- [Sentry 整合](../obs/sentry.md)
+- [pino 結構化 logging](../obs/logging.md)
+- [Docker 部署](../deploy/docker.md) / [GitHub Actions CI](../deploy/ci-github.md)
+- [通用反模式（後端段：N+1、同步阻塞）](../_shared/anti-patterns.md)

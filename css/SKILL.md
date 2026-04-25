@@ -11,6 +11,7 @@ description: Tailwind、Bootstrap、SCSS、Vanilla CSS 方案指南
 | 方案 | 類型 | 適用場景 | 學習曲線 |
 |-----|------|---------|---------|
 | [Tailwind](tailwind.md) | 原子化 | 快速開發、客製化 | 中等 |
+| [shadcn/ui + Radix](shadcn-radix.md) | Tailwind + 元件 | 現代 React、設計系統 | 中等 |
 | [Bootstrap](bootstrap.md) | 元件庫 | 快速原型、標準 UI | 低 |
 | [SCSS](scss.md) | 預處理器 | 複雜專案、設計系統 | 低 |
 | [Vanilla](vanilla.md) | 原生 | 輕量、完全控制 | 低 |

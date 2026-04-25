@@ -6,6 +6,11 @@ description: React 18+ 開發最佳實踐
 
 # ⚛️ React 指南
 
+> **必修規則**：[`react-rules.critical.md`](react-rules.critical.md)（CRITICAL + HIGH，預設載入）
+> **進階規則**：[`react-rules.optional.md`](react-rules.optional.md)（review/refactor 才載）
+> **元件組合模式**：[`../comp/SKILL.md`](../comp/SKILL.md)
+> **效能 / 測試 / SEO**：見 [`../perf/`](../perf/SKILL.md) [`../test/`](../test/SKILL.md) [`../seo/`](../seo/SKILL.md)
+
 ## 專案建立
 
 ```bash

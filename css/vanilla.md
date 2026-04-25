@@ -169,3 +169,15 @@ input, button, textarea, select {
   font: inherit;
 }
 ```
+
+---
+
+## 相關技能
+
+- [CSS BEM](../code/css-bem.md)
+- [SCSS](scss.md)
+- [去 AI 感設計指南](../ui/no-ai-feel.md)
+- [響應式設計](../rwd/SKILL.md)
+- [a11y 自動化](../test/a11y-axe.md)（CSS focus 樣式、reduced motion）
+
+> **CSS variables 是 vanilla 寫設計系統的關鍵**：用 `:root { --primary: ... }` + `hsl(var(--primary))` 即可實作主題切換、design token，不需任何工具。

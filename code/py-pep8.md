@@ -145,3 +145,13 @@ black src/
 pip install mypy
 mypy src/
 ```
+
+---
+
+## 相關技能
+
+- [Django 指南](../be/django.md)
+- [FastAPI 指南](../be/fastapi.md)
+- [API 設計](../api/SKILL.md)
+- [優先級制度](../_shared/priority-legend.md)
+- [驗證指令](../_shared/verification-commands.md)（`ruff` / `black` / `mypy`）

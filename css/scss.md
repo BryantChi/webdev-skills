@@ -146,3 +146,16 @@ scss/
 3. **7-1 模式組織檔案**
 4. **BEM 命名規範**
 5. **避免過深巢狀 (3層以內)**
+
+---
+
+## 相關技能
+
+- [BEM 命名規範](../code/css-bem.md)
+- [Tailwind 替代](tailwind.md)
+- [shadcn/ui + Radix](shadcn-radix.md)
+- [Bootstrap（基於 SCSS）](bootstrap.md)
+- [設計系統生成](../logic/design-system-gen.md)
+- [元件組合模式](../comp/SKILL.md)
+
+> **建議**：SCSS + BEM 適合需要嚴謹 design system 的專案；現代 React/Vue 專案大多已遷移到 Tailwind + shadcn。

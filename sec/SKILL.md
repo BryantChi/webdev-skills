@@ -119,3 +119,18 @@ Content-Security-Policy: default-src 'self'
 - [ ] 敏感資料加密
 - [ ] 錯誤訊息不洩漏細節
 - [ ] 定期更新依賴套件
+
+---
+
+## 相關技能
+
+- [認證授權](../auth/SKILL.md)（深入：Auth.js、Clerk、JWT-Cookie 細節、RBAC/ABAC）
+- [JWT / Cookie 安全細節](../auth/jwt-cookie.md)（HttpOnly、SameSite、refresh rotation）
+- [權限模型](../auth/rbac-abac.md)
+- [API 設計](../api/SKILL.md)
+- [Next 安全規則](../fe/next-rules.critical.md) NX22-25（route handler 驗 input、CSP）
+- [部署機密管理](../deploy/compact.md)（secret manager）
+- [錯誤監控（不洩漏 PII）](../obs/logging.md)
+- [通用反模式](../_shared/anti-patterns.md)（XSS / CSRF / SQL Injection 段）
+
+> **核心原則**：deny-by-default、最小權限、伺服端必驗（不信任 client）、所有秘鑰用 secret manager。

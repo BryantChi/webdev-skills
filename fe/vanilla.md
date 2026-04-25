@@ -155,3 +155,15 @@ export class Modal {
 3. **事件委派**
 4. **async/await 處理非同步**
 5. **避免全域變數**
+
+---
+
+## 相關技能
+
+- [效能 / Core Web Vitals](../perf/SKILL.md)（vanilla 場景特別關注 bundle、INP）
+- [a11y 自動化測試](../test/a11y-axe.md)
+- [技術 SEO](../seo/SKILL.md)
+- [動畫（CSS / View Transitions / GSAP）](../anim/SKILL.md)
+- [通用反模式](../_shared/anti-patterns.md)（DOM / 渲染段）
+
+> **建議**：若需要 SPA 路由 + state，建議至少加入 [TanStack Query](../state/tanstack-query.md) 處理 server state；純動畫可用 GSAP 或 View Transitions。

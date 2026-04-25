@@ -6,6 +6,11 @@ description: Vue 3 Composition API 開發最佳實踐
 
 # 💚 Vue 指南
 
+> **必修規則**：[`vue-rules.critical.md`](vue-rules.critical.md)（CRITICAL + HIGH）
+> **進階規則**：[`vue-rules.optional.md`](vue-rules.optional.md)（review/refactor）
+> **元件組合**：[`../comp/SKILL.md`](../comp/SKILL.md)
+> **效能 / 測試 / SEO**：[`../perf/`](../perf/SKILL.md) [`../test/`](../test/SKILL.md) [`../seo/`](../seo/SKILL.md)
+
 ## 專案建立
 
 ```bash

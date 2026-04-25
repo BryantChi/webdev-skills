@@ -155,3 +155,17 @@ git submodule update --remote .agent/skills/webdev
 # 專案 Clone
 cd .agent/skills/webdev && git pull
 ```
+
+---
+
+## 📚 安裝後第一步
+
+| 用途 | 起點 |
+|------|------|
+| 完整建站 | 對 AI 說「幫我建立網站」→ 走 [`workflows/build-website.md`](workflows/build-website.md) 15 階段 |
+| 改色 / 微調 | [`compact.md`](compact.md) + 對應 ui/styles |
+| 加效能 / 測試 / SEO | [`_shared/load-paths.md`](_shared/load-paths.md) 對應任務的最小檔案集 |
+| AI 工具設定 | [`ai-tools-guide.md`](ai-tools-guide.md) |
+| 業界對照 | [README 業界對照表](README.md) |
+
+> **建議**：第一次使用前，建議讀 [`SKILL.md`](SKILL.md) + [`compact.md`](compact.md) + [`_shared/load-paths.md`](_shared/load-paths.md) 三檔（合計 ~1500 tokens），就能掌握全庫導航。

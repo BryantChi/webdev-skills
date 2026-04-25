@@ -119,3 +119,15 @@ $border-radius: 0.75rem;
 
 @import "bootstrap/scss/bootstrap";
 ```
+
+---
+
+## 相關技能
+
+- [SCSS](scss.md)（Bootstrap 原生支援）
+- [Tailwind 替代方案](tailwind.md)
+- [去 AI 感設計指南](../ui/no-ai-feel.md)（避免直接用 Bootstrap 預設樣式 — AI 感極重）
+- [元件組合模式](../comp/SKILL.md)
+- [55+ 種設計風格](../ui/styles/index.md)
+
+> **重要**：Bootstrap 預設配色（藍 `#0d6efd`）是 AI 設計感最重的標記之一，**必須客製 SCSS variables 與字體**，否則設計會看起來像「Bootstrap 模板網站」。

@@ -1,16 +1,21 @@
 ---
 id: tech_stack_wizard
 name: tech_stack_wizard
-description: 透過 12 個問題引導選擇最適合的前後端技術棧
+description: 透過 15 個問題引導選擇最適合的前後端技術棧（含測試 / 部署 / 效能目標）
 ---
 
 # 🔧 技術棧選擇精靈
 
-> AI 請依序詢問以下問題，根據回答分析並推薦技術棧
+> AI 請依序詢問以下問題，根據回答分析並推薦技術棧。
+>
+> **完成後必須**將結果寫入 `.agent/profile.json`（簡單 JSON 即可），下次任務優先讀取此檔，不再重複觸發精靈。範例：
+> ```json
+> { "stack": "next+tailwind+shadcn", "test": "playwright+vitest", "deploy": "vercel", "perf_target": "lcp_2.5s_lh_90" }
+> ```
 
 ---
 
-## 階段 1/6：專案基本資訊
+## 階段 1/7：專案基本資訊
 
 ### Q1. 專案類型
 
@@ -38,7 +43,7 @@ G → 特殊需求，依詳情判斷
 
 ---
 
-## 階段 2/6：規模與複雜度
+## 階段 2/7：規模與複雜度
 
 ### Q2. 網站規模
 
@@ -71,7 +76,7 @@ G → 特殊需求，依詳情判斷
 
 ---
 
-## 階段 3/6：效能與 SEO 需求
+## 階段 3/7：效能與 SEO 需求
 
 ### Q4. SEO 重要性
 
@@ -99,7 +104,7 @@ C → SPA 可行：React SPA、Vue SPA
 
 ---
 
-## 階段 4/6：團隊與技術背景
+## 階段 4/7：團隊與技術背景
 
 ### Q6. 技術背景
 
@@ -148,7 +153,7 @@ C → SPA 可行：React SPA、Vue SPA
 
 ---
 
-## 階段 5/6：專案條件
+## 階段 5/7：專案條件
 
 ### Q9. 開發時程
 
@@ -177,7 +182,7 @@ C → SPA 可行：React SPA、Vue SPA
 
 ---
 
-## 階段 6/6：特殊需求
+## 階段 6/7：特殊需求
 
 ### Q12. 特殊功能（可複選）
 
@@ -193,6 +198,44 @@ C → SPA 可行：React SPA、Vue SPA
 | □ 影音串流 | 需要串流服務 |
 | □ 檔案上傳 | 需要檔案儲存方案 |
 | □ 資料匯出 | 需要報表功能 |
+
+---
+
+## 階段 7/7：品質工程目標 (New)
+
+### Q13. 測試體系強度
+
+| 選項 | 說明 | 推薦套件 |
+|-----|------|---------|
+| A) 🟢 最小化 | 只測關鍵流程 | Vitest + 1-2 個 Playwright smoke |
+| B) 🔵 標準 | 單元 + 主要 E2E | Vitest + Playwright + axe-core |
+| C) 🟠 完整 | 含視覺回歸 | + Playwright screenshots / Chromatic |
+| D) 🔴 嚴格（金融/醫療） | 含合約測試、CI 強制門檻 | + Pact / coverage gate / mutation testing |
+
+→ 對應指引：[`../test/SKILL.md`](../test/SKILL.md)
+
+### Q14. 部署目標
+
+| 選項 | 說明 | 推薦平台 |
+|-----|------|---------|
+| A) Next.js 自動化 | 不想煩惱 infra | Vercel |
+| B) 純靜態 / Jamstack | 部落格、行銷頁 | Cloudflare Pages / Netlify |
+| C) 自架 / 合規 | 需要完全控制 | Docker + Coolify / k8s |
+| D) AWS / GCP / Azure | 已有雲端 | Amplify / Cloud Run / App Service |
+| E) 還沒決定 | 由 AI 推薦 | 依其他答案決定 |
+
+→ 對應指引：[`../deploy/SKILL.md`](../deploy/SKILL.md)
+
+### Q15. 效能目標
+
+| 選項 | 目標 | 適用 |
+|-----|------|------|
+| A) 🥉 達標 | LCP ≤ 2.5s, Lighthouse ≥ 80 | 一般網站 |
+| B) 🥈 高品質 | LCP ≤ 2.0s, Lighthouse ≥ 90, CLS ≤ 0.1 | 內容站、SaaS |
+| C) 🥇 卓越 | LCP ≤ 1.5s, Lighthouse ≥ 95, INP ≤ 100ms | 電商、流量大 |
+| D) ⚙️ 自訂 | 由用戶指定 | 特殊需求 |
+
+→ 對應指引：[`../perf/SKILL.md`](../perf/SKILL.md)、[`../check/lighthouse.md`](../check/lighthouse.md)
 
 ---
 

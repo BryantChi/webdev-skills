@@ -138,3 +138,16 @@ php artisan migrate
 // 回滾
 php artisan migrate:rollback
 ```
+
+---
+
+## 相關技能
+
+- [後端框架](../be/SKILL.md)
+- [API 設計](../api/SKILL.md)
+- [安全性](../sec/SKILL.md)（SQL Injection、敏感資料加密）
+- [Server state（TanStack Query）](../state/tanstack-query.md)
+- [結構化 logging](../obs/logging.md)（避免 log SQL 含 PII）
+- [通用反模式](../_shared/anti-patterns.md)（後端段：N+1、同步阻塞 I/O）
+
+> **建議規則**：避免 N+1（用 eager load / `with()` / `include`）；migration 用版本控制；機密用 secret manager。

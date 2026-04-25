@@ -136,3 +136,18 @@ Authorization: Bearer <token>
 ```
 X-API-Key: <key>
 ```
+
+---
+
+## 相關技能
+
+- [後端框架](../be/SKILL.md)
+- [資料庫](../db/SKILL.md)
+- [認證授權](../auth/SKILL.md)（OAuth / JWT / RBAC 細節）
+- [安全性](../sec/SKILL.md)（OWASP、輸入驗證、CSRF）
+- [Server Actions + Zod](../form/server-actions-zod.md)（Next 15 表單 → API 模式）
+- [錯誤監控](../obs/sentry.md)
+- [結構化 logging](../obs/logging.md)
+- [通用反模式](../_shared/anti-patterns.md)（後端 / API 段：N+1、未驗 input）
+
+> **建議規則**：所有 API 必驗 input（Zod / Joi / Pydantic）、必驗權限（auth/rbac-abac）、必加 rate limit、必設 versioning（`/v1/`）。

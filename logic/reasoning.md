@@ -69,3 +69,17 @@ description: 設計決策推理與反模式過濾邏輯
 
 ## 3. 執行觸發 (Execution Trigger)
 輸出表格後，自動提議基於這些選擇生成 **設計系統主檔** (`design-system/MASTER.md`)。
+
+---
+
+## 相關技能
+
+- [去 AI 感設計指南](../ui/no-ai-feel.md)（三段式：禁用 / 替代 / 反例對比）
+- [設計系統生成器](design-system-gen.md)
+- [55+ 種設計風格](../ui/styles/index.md)
+- [元件組合模式](../comp/SKILL.md)（決定元件 API 形式）
+- [shadcn/ui + Radix](../css/shadcn-radix.md)（design token 強制）
+- [完整建站 15 階段](../workflows/build-website.md)
+- [通用反模式](../_shared/anti-patterns.md)
+
+> **重要**：推理結果應寫入 `.agent/profile.json`，後續任務優先讀此檔，不重複觸發推理。

@@ -80,8 +80,24 @@ src/
 
 ---
 
+## 規則庫（按優先級分檔，預設只載 critical）
+
+| 框架 | 必修（CRITICAL+HIGH） | 進階（MEDIUM+LOW，review 才載） |
+|------|--------------------|-------------------------------|
+| React | [react-rules.critical.md](react-rules.critical.md) | [react-rules.optional.md](react-rules.optional.md) |
+| Vue | [vue-rules.critical.md](vue-rules.critical.md) | [vue-rules.optional.md](vue-rules.optional.md) |
+| Next | [next-rules.critical.md](next-rules.critical.md) | [next-rules.optional.md](next-rules.optional.md) |
+
+> 優先級定義見 [`../_shared/priority-legend.md`](../_shared/priority-legend.md)
+
+---
+
 ## 相關技能
 
-- [CSS 架構](../css/SKILL.md)
+- [CSS 架構](../css/SKILL.md) ｜ [shadcn/Radix](../css/shadcn-radix.md)
 - [Coding Style](../code/SKILL.md)
 - [響應式設計](../rwd/SKILL.md)
+- [元件組合模式](../comp/SKILL.md)
+- [效能優化](../perf/SKILL.md)
+- [測試體系](../test/SKILL.md)
+- [技術 SEO](../seo/SKILL.md)

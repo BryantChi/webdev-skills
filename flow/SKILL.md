@@ -120,3 +120,19 @@ docs(readme): 更新安裝說明
 - Sentry (錯誤追蹤)
 - New Relic (APM)
 - Prometheus + Grafana
+
+---
+
+## 相關技能（深入主題）
+
+| 主題 | 連結 |
+|------|------|
+| 完整測試體系 | [`../test/SKILL.md`](../test/SKILL.md) — Playwright + Vitest + axe-core |
+| 部署與 CI/CD | [`../deploy/SKILL.md`](../deploy/SKILL.md) — Vercel / Netlify / Docker |
+| GitHub Actions 範本 | [`../deploy/ci-github.md`](../deploy/ci-github.md) |
+| 效能優化 | [`../perf/SKILL.md`](../perf/SKILL.md) — CWV、Lighthouse、Bundle |
+| 可觀測性 | [`../obs/SKILL.md`](../obs/SKILL.md) — Sentry、Web Vitals RUM、log |
+| 上線前 Lighthouse | [`../check/lighthouse.md`](../check/lighthouse.md) |
+| 上線前 a11y | [`../check/a11y.md`](../check/a11y.md) |
+| 上線前 SEO | [`../check/seo.md`](../check/seo.md) |
+| 完整建站 15 階段 | [`../workflows/build-website.md`](../workflows/build-website.md) |

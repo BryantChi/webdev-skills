@@ -10,13 +10,13 @@ description: JavaScript、TypeScript、PHP、Python、CSS 代碼規範
 
 | 語言 | 規範 | 說明 |
 |-----|------|-----|
-| [JavaScript - Airbnb](js-airbnb.md) | 最流行、嚴格 |
-| [JavaScript - Standard](js-standard.md) | 無分號風格 |
-| [TypeScript](ts.md) | TypeScript 特定規範 |
-| [PHP - PSR-12](php-psr12.md) | PHP 官方標準 |
-| [PHP - Laravel](php-laravel.md) | Laravel 風格 |
-| [Python - PEP8](py-pep8.md) | Python 官方標準 |
-| [CSS - BEM](css-bem.md) | 命名規範 |
+| JavaScript | [Airbnb](js-airbnb.md) | 最流行、嚴格 |
+| TypeScript | [TS 規範](ts.md) | TypeScript 特定規範（含 strict 設定）|
+| PHP | [PSR-12](php-psr12.md) | PHP 官方標準（Laravel 採用） |
+| Python | [PEP8](py-pep8.md) | Python 官方標準 |
+| CSS | [BEM](css-bem.md) | 命名規範 |
+
+> **框架特定規則**：見 [`../fe/react-rules.critical.md`](../fe/react-rules.critical.md)、[`vue-rules.critical.md`](../fe/vue-rules.critical.md)、[`next-rules.critical.md`](../fe/next-rules.critical.md)。
 
 ---
 
@@ -110,3 +110,18 @@ indent_size = 4
 ## 選擇精靈
 
 不確定用什麼規範？使用 [Coding Style 精靈](../wizard/code.md)
+
+---
+
+## 相關技能
+
+- [優先級制度](../_shared/priority-legend.md)（CRITICAL/HIGH/MEDIUM/LOW）
+- [通用反模式](../_shared/anti-patterns.md)（資料流、DOM、樣式、表單、後端、a11y）
+- [驗證指令](../_shared/verification-commands.md)（lint、test、build、audit）
+- [React 規則庫](../fe/react-rules.critical.md) ｜ [optional](../fe/react-rules.optional.md)
+- [Vue 規則庫](../fe/vue-rules.critical.md) ｜ [optional](../fe/vue-rules.optional.md)
+- [Next 規則庫](../fe/next-rules.critical.md) ｜ [optional](../fe/next-rules.optional.md)
+- [元件組合模式](../comp/SKILL.md)
+- [測試體系](../test/SKILL.md)（Code Review 配套）
+
+> **建議流程**：PR 必跑 lint + typecheck + test（見 [`../deploy/ci-github.md`](../deploy/ci-github.md)）。Code Review 時載入對應框架的 `*-rules.optional.md` 檔。

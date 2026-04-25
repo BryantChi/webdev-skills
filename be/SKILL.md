@@ -89,3 +89,8 @@ description: Laravel、Node.js、Django、FastAPI 後端框架指南
 - [API 設計](../api/SKILL.md)
 - [資料庫](../db/SKILL.md)
 - [安全性](../sec/SKILL.md)
+- [認證授權](../auth/SKILL.md)（Auth.js / Clerk / JWT-Cookie / RBAC）
+- [錯誤監控與 logging](../obs/SKILL.md)（Sentry、結構化 log）
+- [部署 / DevOps](../deploy/SKILL.md)（Docker、CI/CD）
+- [通用反模式](../_shared/anti-patterns.md)（後端 / API 段）
+- [驗證指令](../_shared/verification-commands.md)

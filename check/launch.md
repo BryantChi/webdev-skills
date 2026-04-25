@@ -6,6 +6,13 @@ description: 網站上線前的完整檢查清單
 
 # ✅ 上線前檢查清單
 
+> **本檔為總清單**。各專項深入檢查請見：
+> - [Lighthouse / Core Web Vitals](lighthouse.md)
+> - [a11y / WCAG 2.2 AA](a11y.md)
+> - [技術 SEO](seo.md)
+>
+> **建議流程**：上線前依序跑 launch.md → lighthouse.md → a11y.md → seo.md → 部署 → smoke test。
+
 ## 功能測試
 
 - [ ] 所有核心功能正常運作
@@ -88,3 +95,20 @@ description: 網站上線前的完整檢查清單
 - [ ] 檔案備份設定
 - [ ] 回滾計劃準備
 - [ ] 災難復原計劃
+
+---
+
+## 深入檢查連結
+
+| 主題 | 檔案 | 重點 |
+|------|------|------|
+| 效能 / Lighthouse | [`lighthouse.md`](lighthouse.md) | LCP/INP/CLS 預算、CI 整合 |
+| 無障礙 / WCAG | [`a11y.md`](a11y.md) | axe-core、觸控目標、reduced motion |
+| 技術 SEO | [`seo.md`](seo.md) | metadata、JSON-LD、sitemap、canonical |
+
+## 相關技能
+
+- [部署 / DevOps](../deploy/SKILL.md)（Vercel / Netlify / Docker / CI）
+- [可觀測性](../obs/SKILL.md)（Sentry、Web Vitals RUM、alert）
+- [安全性](../sec/SKILL.md)
+- [完整建站流程](../workflows/build-website.md)（15 階段）

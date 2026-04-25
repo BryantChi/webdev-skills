@@ -148,3 +148,16 @@ Accept: application/vnd.api+json; version=1
 5. 速率限制
 6. 版本控制
 7. 詳細文件
+
+---
+
+## 相關技能
+
+- [API 總覽](SKILL.md)
+- [後端框架](../be/SKILL.md)
+- [安全性](../sec/SKILL.md)（OWASP、輸入驗證）
+- [認證授權](../auth/SKILL.md)（Bearer token、JWT、RBAC）
+- [Server Actions + Zod](../form/server-actions-zod.md)
+- [Sentry 整合](../obs/sentry.md)
+- [pino 結構化 logging](../obs/logging.md)
+- [通用反模式（API 段：N+1、未驗 input、API 無版本）](../_shared/anti-patterns.md)

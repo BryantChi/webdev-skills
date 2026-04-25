@@ -128,3 +128,16 @@ uvicorn app.main:app --reload
 3. **路由模組化**
 4. **async/await 非同步**
 5. **自動 API 文件**
+
+---
+
+## 相關技能
+
+- [Coding Style: Python PEP8](../code/py-pep8.md)
+- [API 設計](../api/SKILL.md)
+- [安全性](../sec/SKILL.md)
+- [JWT / Cookie 認證](../auth/jwt-cookie.md) / [RBAC/ABAC](../auth/rbac-abac.md)
+- [Sentry 整合](../obs/sentry.md)
+- [結構化 logging](../obs/logging.md)
+- [Docker 部署](../deploy/docker.md)
+- [通用反模式（後端段）](../_shared/anti-patterns.md)

@@ -105,3 +105,16 @@ module.exports = {
 3. **響應式**：使用 `sm:` `md:` `lg:` 前綴
 4. **狀態**：使用 `hover:` `focus:` `active:`
 5. **深色模式**：使用 `dark:` 前綴
+
+---
+
+## 相關技能
+
+- [shadcn/ui + Radix](shadcn-radix.md)（Tailwind v4 + design token + Radix 組合，2026 主流）
+- [去 AI 感設計指南](../ui/no-ai-feel.md)（避免泛用 Tailwind 預設配色）
+- [元件組合模式](../comp/SKILL.md)
+- [設計系統生成](../logic/design-system-gen.md)
+- [55+ 種設計風格](../ui/styles/index.md)
+- [CSS BEM](../code/css-bem.md)（替代命名方案）
+
+> **建議**：Tailwind v4 + shadcn/ui 是 2026 React 主流選擇。design token 走 CSS variables（HSL 三分量），由元件透過 `hsl(var(--token))` 引用。

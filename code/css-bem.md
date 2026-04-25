@@ -107,3 +107,13 @@ description: Block Element Modifier 命名規範
 2. **避免過深巢狀**：最多 Block > Element
 3. **Element 只有一層**：不要 `.block__el1__el2`
 4. **有意義的命名**：描述功能而非外觀
+
+---
+
+## 相關技能
+
+- [Tailwind](../css/tailwind.md)（utility-first，與 BEM 是兩種方法）
+- [SCSS](../css/scss.md)（與 BEM 搭配良好）
+- [shadcn/ui + Radix](../css/shadcn-radix.md)（用 design token 取代命名規範）
+- [元件組合模式](../comp/SKILL.md)
+- [去 AI 感設計指南](../ui/no-ai-feel.md)（命名應反映設計意圖）

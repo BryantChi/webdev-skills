@@ -6,6 +6,13 @@ description: Next.js 14+ App Router 開發最佳實踐
 
 # ▲ Next.js 指南
 
+> **必修規則**：[`next-rules.critical.md`](next-rules.critical.md)（含 server/client boundary、metadata、安全）
+> **進階規則**：[`next-rules.optional.md`](next-rules.optional.md)
+> **React 共通規則**：[`react-rules.critical.md`](react-rules.critical.md)
+> **shadcn/ui**：[`../css/shadcn-radix.md`](../css/shadcn-radix.md)
+> **i18n**：[`../i18n/next-intl.md`](../i18n/next-intl.md)
+> **部署**：[`../deploy/vercel.md`](../deploy/vercel.md)
+
 ## 專案建立
 
 ```bash

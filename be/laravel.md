@@ -144,3 +144,17 @@ class StorePostRequest extends FormRequest
 4. **使用 Eloquent 關聯**
 5. **Queue 處理耗時任務**
 6. **Cache 快取頻繁查詢**
+
+---
+
+## 相關技能
+
+- [Coding Style: PHP PSR-12](../code/php-psr12.md)
+- [API 設計](../api/SKILL.md)
+- [安全性](../sec/SKILL.md)
+- [JWT / Cookie 認證](../auth/jwt-cookie.md)
+- [Sentry 整合](../obs/sentry.md)
+- [結構化 logging](../obs/logging.md)
+- [Docker 部署](../deploy/docker.md)
+- [通用反模式（後端段）](../_shared/anti-patterns.md)
+- [驗證指令](../_shared/verification-commands.md)（Pint：`vendor/bin/pint --test`）

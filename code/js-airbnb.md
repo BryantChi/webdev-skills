@@ -91,3 +91,14 @@ const foo = require('./module');
 ```bash
 npm install -D eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a11y
 ```
+
+---
+
+## 相關技能
+
+- [TypeScript 規範](ts.md)
+- [React 必修規則](../fe/react-rules.critical.md)
+- [Vue 必修規則](../fe/vue-rules.critical.md)
+- [優先級制度](../_shared/priority-legend.md)
+- [通用反模式](../_shared/anti-patterns.md)
+- [驗證指令](../_shared/verification-commands.md)

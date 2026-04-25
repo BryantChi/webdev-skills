@@ -120,3 +120,13 @@ composer require --dev squizlabs/php_codesniffer
 composer require --dev friendsofphp/php-cs-fixer
 ./vendor/bin/php-cs-fixer fix src/
 ```
+
+---
+
+## 相關技能
+
+- [Laravel 指南](../be/laravel.md)（Laravel Pint 即基於 PSR-12）
+- [API 設計](../api/SKILL.md)
+- [安全性](../sec/SKILL.md)
+- [優先級制度](../_shared/priority-legend.md)
+- [驗證指令](../_shared/verification-commands.md)（`vendor/bin/pint --test`）

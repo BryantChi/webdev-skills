@@ -250,3 +250,18 @@ description: Button、Form、Card、Nav、Modal 等 UI 元件模板
   border-top: 1px solid var(--color-gray-200);
 }
 ```
+
+---
+
+## 相關技能
+
+- [元件組合模式](../../comp/SKILL.md)（Compound / Slot / Headless 模式 — 設計新元件 API 時必看）
+- [shadcn/ui + Radix](../../css/shadcn-radix.md)（取代部分自寫元件）
+- [元件單元測試](../../test/unit-vitest.md)
+- [元件 a11y 規則](../../test/a11y-axe.md)
+- [元件視覺回歸](../../test/visual-regression.md)
+- [動畫](../../anim/SKILL.md)（互動微動效）
+- [表單元件](../../form/SKILL.md)（RHF + Zod）
+- [Coding Style](../../code/SKILL.md)
+
+> **設計新元件前**：先看 [`comp/compact.md`](../../comp/compact.md) 決定用 Compound / Slot / Headless 哪種模式。

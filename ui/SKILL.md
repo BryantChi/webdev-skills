@@ -33,6 +33,10 @@ description: 色彩、排版、間距、Accessibility 與 55+ 設計風格指南
 | [排版規範](typo.md) | 字型選擇、階層、行高 |
 | [間距系統](space.md) | 留白、網格、間距比例 |
 | [無障礙設計](a11y.md) | WCAG 標準、色彩對比、鍵盤導航 |
+| [自動化 a11y 驗證](../test/a11y-axe.md) | axe-core + WCAG 2.2 AA 規則表 |
+| [a11y 上線檢查](../check/a11y.md) | 上線前無障礙清單 |
+| [元件組合模式](../comp/SKILL.md) | Compound、Slot/asChild、Headless |
+| [shadcn/ui + Radix](../css/shadcn-radix.md) | 現代元件系統 + design token |
 
 ### 設計風格
 | 類別 | 數量 |
@@ -145,4 +149,8 @@ description: 色彩、排版、間距、Accessibility 與 55+ 設計風格指南
 
 - [響應式設計](../rwd/SKILL.md)
 - [元件模板](../tpl/comp/SKILL.md)
+- [元件組合模式](../comp/SKILL.md)
 - [設計風格精靈](../wizard/style.md)
+- [shadcn/ui + Radix](../css/shadcn-radix.md)
+- [a11y 自動化測試](../test/a11y-axe.md)
+- [效能：CLS / 圖片優化](../perf/cwv.md)

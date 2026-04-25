@@ -139,3 +139,15 @@ class PostViewSet(viewsets.ModelViewSet):
 3. **環境變數管理設定**
 4. **DRF 建立 API**
 5. **Celery 處理背景任務**
+
+---
+
+## 相關技能
+
+- [Coding Style: Python PEP8](../code/py-pep8.md)
+- [API 設計](../api/SKILL.md)
+- [安全性](../sec/SKILL.md)
+- [Sentry 整合](../obs/sentry.md)
+- [結構化 logging](../obs/logging.md)
+- [Docker 部署](../deploy/docker.md)
+- [通用反模式（後端段）](../_shared/anti-patterns.md)

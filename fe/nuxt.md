@@ -6,6 +6,13 @@ description: Nuxt.js 3 開發最佳實踐
 
 # Nuxt.js 指南
 
+> **必修規則**：[`vue-rules.critical.md`](vue-rules.critical.md)（含 Nuxt 3 NU1-NU7 規則：useFetch、definePageMeta、useSeoMeta、runtimeConfig）
+> **Vue 共通規則**：[`vue-rules.critical.md`](vue-rules.critical.md)
+> **i18n**：[`../i18n/vue-i18n.md`](../i18n/vue-i18n.md)（@nuxtjs/i18n 自動 hreflang）
+> **狀態管理**：[`../state/pinia.md`](../state/pinia.md)
+> **效能 / 測試 / SEO**：[`../perf/`](../perf/SKILL.md) [`../test/`](../test/SKILL.md) [`../seo/`](../seo/SKILL.md)
+> **部署**：[`../deploy/SKILL.md`](../deploy/SKILL.md)
+
 ## 專案建立
 
 ```bash

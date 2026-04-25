@@ -10,6 +10,8 @@ description: 完整的網站開發指南，涵蓋 UI/UX 設計、React/Vue/Next.
 
 **📂 路徑說明：** 本文件中所有路徑皆相對於此 SKILL.md 所在目錄。讀取子檔案時，請以此目錄為基準解析路徑。每個 Phase 僅讀取當前需要的檔案（最多 3 個），避免一次載入過多內容。
 
+**🎯 載入路徑表（Token 優化）：** 任務 → 最小檔案集對照請見 [`_shared/load-paths.md`](_shared/load-paths.md)。**不要為了「以防萬一」全載資料夾**。優先級制度與通用反模式分別見 [`_shared/priority-legend.md`](_shared/priority-legend.md) 與 [`_shared/anti-patterns.md`](_shared/anti-patterns.md)。
+
 ---
 
 ## 🚀 核心指令
@@ -128,11 +130,30 @@ description: 完整的網站開發指南，涵蓋 UI/UX 設計、React/Vue/Next.
 | [資料庫](db/SKILL.md) | Schema 設計、ORM、遷移 |
 | [安全性](sec/SKILL.md) | 驗證、授權、安全檢查清單 |
 
+### 品質工程（New 2026-04）
+| 類別 | 內容 |
+|-----|------|
+| [效能 / Core Web Vitals](perf/SKILL.md) | LCP/INP/CLS、Lighthouse、Bundle |
+| [測試體系](test/SKILL.md) | Playwright、Vitest、視覺回歸、axe-core |
+| [技術 SEO](seo/SKILL.md) | Meta/OG、JSON-LD、sitemap、canonical |
+| [元件組合模式](comp/SKILL.md) | Compound、asChild、Headless |
+| [多語系 i18n](i18n/SKILL.md) | next-intl、vue-i18n、react-intl |
+| [部署 / DevOps](deploy/SKILL.md) | Vercel、Netlify、Docker、GitHub Actions |
+| [可觀測性](obs/SKILL.md) | Sentry、Web Vitals RUM、結構化 logging |
+
+### 應用功能（New 2026-04）
+| 類別 | 內容 |
+|-----|------|
+| [狀態管理](state/SKILL.md) | Zustand、TanStack Query、Redux Toolkit、Pinia |
+| [表單體系](form/SKILL.md) | RHF + Zod、TanStack Form、server actions、檔案上傳 |
+| [認證授權](auth/SKILL.md) | Auth.js、Clerk、JWT/Cookie、RBAC/ABAC |
+| [動畫](anim/SKILL.md) | Framer Motion、GSAP、View Transitions |
+
 ### 工作流程
 | 類別 | 內容 |
 |-----|------|
 | [開發流程](flow/SKILL.md) | Git、測試、部署、效能優化 |
-| [檢查清單](check/launch.md) | 上線前、SEO、安全審計 |
+| [檢查清單](check/launch.md) | 上線、[Lighthouse](check/lighthouse.md)、[a11y](check/a11y.md)、[SEO](check/seo.md)、安全審計 |
 | [Coding Style](code/SKILL.md) | JS、TS、PHP、Python、CSS 規範 |
 
 ### 模板
@@ -167,11 +188,35 @@ description: 完整的網站開發指南，涵蓋 UI/UX 設計、React/Vue/Next.
 
 ---
 
+## 🌐 生態整合（可組合的官方/業界 Skills）
+
+本 Skill 庫為「整合包」，若要加深特定能力，可額外安裝下列業界可信 Skills：
+
+| Skill | 來源 | 補強能力 |
+|-------|------|---------|
+| `frontend-design` | Anthropic 官方 | 設計理念與大膽美學承諾 |
+| `webapp-testing` / `playwright` | Anthropic 官方 | E2E 自動化（與本庫 [test/](test/SKILL.md) 互補） |
+| `vercel-labs/react-best-practices` | Vercel | 57 條效能規則（與 [fe/react-rules.critical.md](fe/react-rules.critical.md) 互補） |
+| `vercel-labs/web-design-guidelines` | Vercel | 100+ a11y/UX 稽核 |
+| `addyosmani/web-quality-skills` | Addy Osmani | Lighthouse + CWV 自動化 |
+| `bitjaru/styleseed` | 社群 | shadcn 品牌 token 預設（Toss/Stripe/Linear/...） |
+
+> 安裝方式參考各官方 repo。本庫已透過載入路徑表確保不會與這些 Skills 重複觸發。
+
+---
+
 ## 版本資訊
 
-- 版本：1.2.0
-- 更新日期：2026-01-29
+- 版本：1.5.0
+- 更新日期：2026-04-26
 - 語言：繁體中文
-- 總檔案數：102
-- 設計風格：55 種
+- 設計風格：55+ 種
+- 模組總計：26 個子目錄（含品質工程 7、應用功能 4、_shared 1）
+- 品質工程模組：perf、test、seo、comp、i18n、deploy、obs
+- 應用功能模組：state、form、auth、anim
+- 共享資源：_shared（priority-legend、anti-patterns、verification-commands、load-paths）
+- 規則庫：fe/{react,vue,next}-rules.{critical,optional}.md
+- Workflow：`workflows/build-website.md` 升級為 15 階段（含測試、效能、SEO、部署、監控）
+- Wizard：`wizard/tech.md` 升級為 15 題（新增測試、部署、效能目標 3 題）
+- Token 優化：三層級載入（L0 index / L1 compact / L2 full），單次任務消耗目標下降 25-60%
 

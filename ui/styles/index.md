@@ -58,7 +58,7 @@ description: 55 種設計風格的完整索引與快速參考
 | [28](28-artdeco.md) | 裝飾藝術 | Art Deco | 對稱、幾何、金色 |
 | [29](29-memphis.md) | 孟菲斯 | Memphis | 幾何圖案、大膽配色 |
 | [30](30-popart.md) | 波普藝術 | Pop Art | 漫畫、鮮豔、網點 |
-| [31](31-abstract.md) | 抽象藝術 | Abstract | 流動形狀、藝術表現 |
+| [31](31-organic.md) | 有機自然 | Organic | 流動形狀、自然表現 |
 | [32](32-watercolor.md) | 水彩風 | Watercolor | 柔和暈染、手繪感 |
 | [33](33-lineart.md) | 線條藝術 | Line Art | 細線條、簡筆畫 |
 | [34](34-illustration.md) | 插畫風 | Illustration | 自訂插圖、故事性 |
@@ -161,7 +161,7 @@ description: 55 種設計風格的完整索引與快速參考
 
 ## 使用方式
 
-1. **透過精靈選擇**：使用 [設計風格精靈](../wizard/style.md) 回答問題後推薦
+1. **透過精靈選擇**：使用 [設計風格精靈](../../wizard/style.md) 回答問題後推薦
 2. **依分類瀏覽**：從上方索引選擇有興趣的風格
 3. **依需求篩選**：參考「依需求選擇」表格
 4. **直接指定**：告訴 AI 你想要的風格，如「使用玻璃擬態風格」

@@ -136,4 +136,18 @@ button, a {
 1. **Chrome DevTools**：裝置模式
 2. **實機測試**：手機、平板
 3. **BrowserStack**：多裝置測試
-4. **Lighthouse**：效能檢測
+4. **Lighthouse**：效能檢測（見 [`../check/lighthouse.md`](../check/lighthouse.md)）
+
+---
+
+## 相關技能
+
+- [UI 設計](../ui/SKILL.md)
+- [效能 / Core Web Vitals](../perf/SKILL.md)（特別是 CLS 與圖片優化）
+- [CLS 修補](../perf/cwv.md)（防跳版）
+- [a11y 自動化](../test/a11y-axe.md)（觸控目標 ≥44×44px、reduced motion）
+- [a11y 上線檢查](../check/a11y.md)
+- [元件組合模式](../comp/SKILL.md)（headless 元件易於響應式）
+- [shadcn/ui + Radix](../css/shadcn-radix.md)
+
+> **要點**：Mobile First、給定 `width`/`height`/`aspect-ratio` 防 CLS、用 `next/image` 自動處理 srcset、觸控目標 ≥44×44px（WCAG 2.2 AA）。

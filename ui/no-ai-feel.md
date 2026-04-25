@@ -6,6 +6,55 @@ description: 確保設計呈現自然、有溫度、不商業化的指南
 
 # 🎭 去 AI 感設計指南
 
+> 對齊 Anthropic `frontend-design` 哲學：**Intent → Bold Direction → Refinement**。
+> 元件組合請參考 [`../comp/SKILL.md`](../comp/SKILL.md)，shadcn token 化見 [`../css/shadcn-radix.md`](../css/shadcn-radix.md)。
+
+---
+
+## ⚡ 三段式速查（禁用 / 替代 / 反例）
+
+> **載入時必看**。詳細範例見下方各章節。
+
+### Section A — 禁用清單（CRITICAL）
+
+| 類別 | 禁用 | 為何 |
+|------|------|------|
+| 字體 | Inter / Roboto / Open Sans / Lato / Montserrat / Space Grotesk | AI 預設氾濫 |
+| 配色 | 紫藍漸層 + 白底 / 純藍 #2563eb 主色 / 三色等分 | 安全到無感 |
+| 佈局 | 完美對稱 3 欄 / Hero + 3 Features + Testimonials | 模板感 |
+| 文案 | 「專業領先最佳」「立即購買」「Lorem ipsum」| AI 愛用空話 |
+| 圖片 | 庫存握手 / 微笑商務人士 / generic gradient | 假 |
+| 互動 | 散落微互動 / 預設 ease 0.3s | 平均化、無記憶點 |
+| 細節 | 純白純灰背景 / 8px 完美間距 / 每個區塊都陰影 | 無層次 |
+
+### Section B — 替代方案
+
+| 禁用 → | 替代 |
+|---|---|
+| Inter / Roboto | Outfit / Bricolage Grotesque / Cabinet Grotesk / Fraunces（依風格選） |
+| 紫藍漸層白底 | 大膽品牌色 + 反差強調色（5% 占比但搶眼） |
+| 完美對稱 | 不對稱平衡（5fr 7fr / overlap / diagonal flow） |
+| 庫存照 | 真實照片、獨特插畫、SVG 幾何 |
+| 預設動畫 | staggered reveal + cubic-bezier(0.34, 1.56, 0.64, 1) |
+| 純色背景 | gradient mesh + noise/grain overlay |
+| 居中堆疊 | 非對稱網格 + 大膽留白 + 適度 grid-breaking |
+| 三個一樣的卡片 | 內容驅動的容器（每張可不同大小/層次） |
+
+### Section C — 反例對比（一句決勝）
+
+| ❌ AI 感 | ✅ 有人味 |
+|---|---|
+| `font-family: Inter` | `font-family: 'Cabinet Grotesk', 'Noto Sans TC', sans-serif` |
+| `--primary: #2563eb` | `--primary: #f43f5e; --bg: #0f172a` |
+| `transition: all 0.3s ease` | `transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1)` |
+| `grid-template-columns: 1fr 1fr 1fr` | `grid-template-columns: 5fr 7fr` |
+| `background: #fff` | `background: radial-gradient(at 30% 20%, #a855f7, transparent), radial-gradient(at 70% 80%, #3b82f6, transparent)` |
+| `<h2>我們的服務</h2>` | `<h2>我們不只是做網站，<strong>我們說故事。</strong></h2>` |
+| 三張一樣的 Service Card | Intro 區（5 欄） + 不對稱內容區（7 欄） |
+| `outline: none` on focus | `outline: 2px solid var(--accent); outline-offset: 4px` |
+
+---
+
 ## 核心理念
 
 > **「設計應該像是有經驗的設計師手工打造，而非機器自動生成」**

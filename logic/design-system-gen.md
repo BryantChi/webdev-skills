@@ -70,3 +70,16 @@ design-system/
 當撰寫 CSS (Tailwind config 或 CSS 變數) 時，**必須** 先讀取 `MASTER.md` 並精確映射數值。
 - 不要在開發時隨意發明新的 Hex 色碼。
 - 不要隨意更改字體大小。
+
+---
+
+## 相關技能
+
+- [推理引擎](reasoning.md)（生成 MASTER.md 的前置步驟）
+- [shadcn/ui + Radix](../css/shadcn-radix.md)（design token 強制使用 + components.json）
+- [去 AI 感設計指南](../ui/no-ai-feel.md)（三段式禁用 / 替代 / 反例）
+- [元件組合模式](../comp/SKILL.md)（決定元件 API）
+- [Tailwind v4 主題](../css/tailwind.md)
+- [55+ 種設計風格](../ui/styles/index.md)
+
+> **設計 Token 必設項**：色彩、字體（display + body 雙字體）、間距 scale、圓角、陰影、動畫 easing 函式。皆對應 [`ui/no-ai-feel.md`](../ui/no-ai-feel.md) 的 Section A 禁用清單。

@@ -257,3 +257,20 @@ description: Landing、Dashboard、Auth 等頁面佈局模板
   margin-bottom: 1.5rem;
 }
 ```
+
+---
+
+## 相關技能
+
+- [響應式設計](../../rwd/SKILL.md)
+- [元件模板](../comp/SKILL.md)
+- [元件組合模式](../../comp/SKILL.md)
+- [效能 / Core Web Vitals](../../perf/SKILL.md)（首屏 LCP、CLS）
+- [SEO metadata](../../seo/meta-og.md)
+- [SEO 結構化資料](../../seo/schema.md)
+- [a11y 上線檢查](../../check/a11y.md)
+- [Lighthouse 上線檢查](../../check/lighthouse.md)
+- [認證頁範本見 auth](../../auth/SKILL.md)（避免重造輪子）
+- [動畫](../../anim/SKILL.md)（頁面進場、轉場）
+
+> **建頁前必看**：[`ui/no-ai-feel.md`](../../ui/no-ai-feel.md) 三段式（禁用/替代/反例）；首屏 LCP 圖必加 `fetchpriority="high"`；每頁 metadata 不重複。

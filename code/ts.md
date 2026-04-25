@@ -147,3 +147,15 @@ function isUser(obj: unknown): obj is User {
 4. **使用類型推斷**
 5. **明確回傳類型**
 6. **使用 readonly 保護資料**
+
+---
+
+## 相關技能
+
+- [JavaScript Airbnb](js-airbnb.md)
+- [React 必修規則](../fe/react-rules.critical.md)（含 TS 整合）
+- [Next 必修規則](../fe/next-rules.critical.md)
+- [TanStack Form / Query 型別範例](../state/tanstack-query.md)
+- [Zod schema](../form/react-hook-form.md)（型別推導 `z.infer`）
+- [優先級制度](../_shared/priority-legend.md)
+- [驗證指令](../_shared/verification-commands.md)（`tsc --noEmit`）
